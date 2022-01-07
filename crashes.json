@@ -1,15 +1,6 @@
 {
   "fixes": [
     {
-      "causes": [
-        {
-          "method": "contains",
-          "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
-        }
-      ],
-      "fix": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`"
-    },
-    {
       "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
         {
