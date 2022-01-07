@@ -1,7 +1,7 @@
 {
   "fixes": [
     {
-      "problems": [
+      "causes": [
         {
           "method": "contains",
           "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
