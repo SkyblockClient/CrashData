@@ -141,7 +141,7 @@
     },
     {
       "fix": "Update patcher to 1.6+",
-      "or": [
+      "causes": [
         {
           "method": "contains",
           "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
