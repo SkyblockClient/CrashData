@@ -40,7 +40,7 @@
       ]
     },
     {
-      "fix": "Try disabling Optifine fast renderer. If you can't access the settings, delete optionsof.txt",
+      "fix": "Try disabling Optifine fast renderer. If you can't access the settings, delete `optionsof.txt` found in `.minecraft/skyclient` ",
       "causes": [
         {
           "method": "contains",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures)",
+      "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.",
       "causes": [
         {
           "method": "contains",
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "fix": "Wyvilities messed up name hightlight. Update Wyvtilities.",
+      "fix": "Wyvilities messed up name hightlight. Update Wyvtilities from https://github.com/W-OVERFLOW/Wyvtils/releases MAKE SURE TO DOWNLOAD THE 1.8.9 VERSION.",
       "causes": [
         {
           "method": "contains",
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "fix": "Looks like you have a corrupted forge installation. Try re-installing it.",
+      "fix": "Looks like you have a corrupted forge installation. Try re-installing it from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html ",
       "causes": [
         {
           "method": "contains",
@@ -403,7 +403,7 @@
       ]
     },
     {
-      "fix": "Either try to play without Dungeons Guide or remove it.",
+      "fix": "Either try to play without Dungeons Guide or remove it, or contact the dungeons guide discord at discord.gg/dg .",
       "causes": [
         {
           "method": "contains",
@@ -457,7 +457,7 @@
       ]
     },
     {
-      "fix": "Make sure your Deftu and Requisite mods are up to date.",
+      "fix": "Qalcyo and requsitie have been abandonded and are outdated, you can find replacement mods at https://woverflow.cc ",
       "causes": [
         {
           "method": "contains",
