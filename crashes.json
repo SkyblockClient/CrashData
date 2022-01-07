@@ -1,1 +1,13 @@
-{}
+{
+  "fixes": [
+    {
+      "problems": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
+        }
+      ],
+      "fix": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`"
+    }
+  ]
+}
