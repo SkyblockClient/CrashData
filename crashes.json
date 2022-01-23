@@ -305,15 +305,6 @@
       ]
     },
     {
-      "fix": "Java has appeared to crash. You can most likely ignore this crash if it doesn't happen again.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "# A fatal error has been detected by the Java Runtime Environment:"
-        }
-      ]
-    },
-    {
       "fix": "Cowlections is causing the issue. Remove the mod for now and get support [here](https://discord.gg/KRq5ZY9Hma/)",
       "causes": [
         {
