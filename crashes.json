@@ -1,6 +1,20 @@
 {
   "fixes": [
     {
+      "fix": "Delete `.minecraft -> versions -> 1.8.9` and `.minecraft -> assets`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "1.8.json"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
+        }
+      ]
+    },
+    "fixes": [
+    {
       "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
         {
