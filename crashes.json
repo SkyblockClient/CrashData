@@ -13,7 +13,6 @@
         }
       ]
     },
-    "fixes": [
     {
       "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
