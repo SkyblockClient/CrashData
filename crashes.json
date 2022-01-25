@@ -1,6 +1,15 @@
 {
   "fixes": [
     {
+      "fix": "Enable Player list info: https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4\nIf this does not fix your crash, disable NEU Dwarven overlay: /neu -> mining",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update"
+        }
+      ]
+    },
+    {
       "fix": "Delete `.minecraft -> versions -> 1.8.9` and `.minecraft -> assets`",
       "causes": [
         {
