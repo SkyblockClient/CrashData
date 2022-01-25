@@ -183,11 +183,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "at net.minecraft.client.renderer.RegionRenderCache.func_180495_p (RegionRenderCache.java:72)"
-        },
-        {
-          "method": "contains",
-          "value": "at net.minecraft.client.renderer.RegionRenderCache.getBlockState (RegionRenderCache.java:72)"
+          "value": "net.optifine.ConnectedTextures"
         }
       ]
     },
