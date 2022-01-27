@@ -10,6 +10,15 @@
       ]
     },
     {
+      "fix": "**Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Support. https://discord.gg/essential**",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Error occurred when downloading file 'https://downloads.essential.gg"
+        }
+      ]
+    },
+    {
       "fix": "Delete `.minecraft -> versions -> 1.8.9` and `.minecraft -> assets`",
       "causes": [
         {
