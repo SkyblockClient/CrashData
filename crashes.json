@@ -10,6 +10,15 @@
       ]
     },
     {
+      "fix": "Update your intel Graphics Drivers",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ig75icd64.dll"
+        }
+      ]
+    },
+    {
       "fix": "**Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Support. https://discord.gg/essential**",
       "causes": [
         {
