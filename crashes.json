@@ -525,6 +525,71 @@
     },
     {
       "fixtype": 0,
+      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod, delete the extracted mod and replace it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "There appear to be jars extracted into the mods directory. This is VERY BAD and will almost NEVER WORK WELL"
+        }
+      ]
+    },
+    {
+      "fix": "Memoryfix is no longer needed as Patcher continues on it's features.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "(MemoryFix-0.3.jar)"
+        }
+      ]
+    },
+    {
+      "fix": "The player api mod is now useless and no mods need it, you can delete it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "PlayerAPI"
+        }
+      ]
+    },
+    {
+      "fix": "Schematica can sometimes cause your game to run out of memory.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Schematica"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "You are running out of memory. (this might falsely trigger)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.OutOfMemoryError:"
+        }
+      ]
+    },
+    {
+      "fix": "HitDelayFix is a bannable modification.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "HitDelayFix.jar"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Do `/neu mining` and turn off Dwarven Overlay.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update(MiningOverlay.java:314)"
+        }
+      ]
+    },
+    {
       "fix": "Delete `.minecraft/versions/1.8.9/1.8.9.jar`",
       "causes": [
         {
