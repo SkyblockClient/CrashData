@@ -1,6 +1,7 @@
 {
   "fixes": [
     {
+      "fixtype": 0,
       "fix": "Enable Player list info: https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4\nIf this does not fix your crash, disable NEU Dwarven overlay: /neu -> mining",
       "causes": [
         {
@@ -10,6 +11,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Update your intel Graphics Drivers",
       "causes": [
         {
@@ -19,6 +21,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "**Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Support. https://discord.gg/essential**",
       "causes": [
         {
@@ -41,6 +44,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
         {
@@ -62,6 +66,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Remove the Medal.tv clipping software from your Computer",
       "causes": [
         {
@@ -75,6 +80,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "If you use a Microsoft account, enable multiplayer. You should be able to do so from https://account.xbox.com/en-us/Settings under the Xbox One/Windows 10 Online Safety tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it. From there, they should be able to enable multiplayer for your account.",
       "causes": [
         {
@@ -84,6 +90,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
       "causes": [
         {
@@ -93,6 +100,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Try disabling Optifine fast renderer. If you can't access the settings, delete `optionsof.txt` found in `.minecraft/skyclient` ",
       "causes": [
         {
@@ -102,6 +110,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Delete any God Mode shortcuts on your PC and relaunch the game.",
       "causes": [
         {
@@ -115,6 +124,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
       "causes": [
         {
@@ -124,6 +134,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
       "causes": [
         {
@@ -137,6 +148,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Essential Bug, Fixed in next version. Delete .minecraft/skyclient/essential/onboarding.json",
       "causes": [
         {
@@ -150,6 +162,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Update Skyclient Cosmetics",
       "causes": [
         {
@@ -167,6 +180,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
       "causes": [
         {
@@ -184,6 +198,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Update patcher to 1.6+",
       "causes": [
         {
@@ -197,6 +212,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "One or more of your mods has not been reobfuscated properly. Ask the developer of the mod to fix this issue.",
       "causes": [
         {
@@ -206,6 +222,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.",
       "causes": [
         {
@@ -215,6 +232,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Don't hold F3+C",
       "causes": [
         {
@@ -224,6 +242,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "XanderLib encountered an issue whilst installing. Try to update mods that use it. (e.g. EvergreenHUD)",
       "causes": [
         {
@@ -233,6 +252,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
       "causes": [
         {
@@ -242,6 +262,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Your GPU appears to be too old for some rendering options in Minecraft. There is no way to fix this other than upgrading your PC.",
       "causes": [
         {
@@ -251,6 +272,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Essential issue. Get support on Essential discord server: https://discord.gg/essential",
       "causes": [
         {
@@ -260,6 +282,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Failed to connect to Skyclient Cosmetics API",
       "causes": [
         {
@@ -269,6 +292,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Dont use \"Debug Display Tags\" in Skyclient Cosmetics settings (This is Debug feature for a reason)",
       "causes": [
         {
@@ -278,6 +302,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Update Skyclient Cosmetics",
       "causes": [
         {
@@ -287,6 +312,7 @@
       ]
     },
     {
+      "fixtype": 1,
       "fix": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
       "causes": [
         {
@@ -296,6 +322,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Delete the 'modcore' folder in your .minecraft folder.",
       "causes": [
         {
@@ -305,7 +332,8 @@
       ]
     },
     {
-      "fix": "SkyblockAddons is encountering problems. Get support [here](https://discord.gg/PqTAEek) and remove it in the meantime.",
+      "fixtype": 0,
+      "fix": "SkyblockAddons is encountering problems. Get support https://discord.gg/PqTAEek and remove it in the meantime.",
       "causes": [
         {
           "method": "contains",
@@ -314,6 +342,7 @@
       ]
     },
     {
+      "fixtype": 1,
       "fix": "Sk1er API appears to be down. Please wait until the issue is resolved.",
       "causes": [
         {
@@ -323,6 +352,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "You either have multiple optifine jars in your mods folder or it is corrupted.",
       "causes": [
         {
@@ -332,6 +362,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Essential is not compatible with OpenJ9, Remove OpenJ9 if you want to use it.",
       "causes": [
         {
@@ -341,7 +372,8 @@
       ]
     },
     {
-      "fix": "Cowlections is causing the issue. Remove the mod for now and get support [here](https://discord.gg/KRq5ZY9Hma/)",
+      "fixtype": 0,
+      "fix": "Cowlections is causing the issue. Remove the mod for now and get support https://discord.gg/KRq5ZY9Hma",
       "causes": [
         {
           "method": "contains",
@@ -350,6 +382,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "EvergreenHUD appears to be outdated. Update here. https://modrinth.com/mod/evergreenhud",
       "causes": [
         {
@@ -359,7 +392,8 @@
       ]
     },
     {
-      "fix": "One of your mods tried to render something incorrectly. Make sure it is up to date.",
+      "fixtype": 1,
+      "fix": "One of your mods tried to render something incorrectly. Make sure they are up to date.",
       "causes": [
         {
           "method": "contains",
@@ -368,6 +402,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "This looks like the SBA OwO language crash. Join [their discord](https://discord.gg/qBkzcgdPqU) for more info.",
       "causes": [
         {
@@ -385,6 +420,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Essential appears to be experiencing issues while downloading. Please be patient while the issue are resolved.",
       "causes": [
         {
@@ -394,6 +430,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Update Sk1er's Old Animations Mod https://discord.gg/d4KFR9H (beta discord)",
       "causes": [
         {
@@ -403,15 +440,7 @@
       ]
     },
     {
-      "fix": "Skyblockatia is currently incompatible with Patcher 1.6. Please remove Skyblockatia.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "java.lang.NoClassDefFoundError: club/sk1er/patcher/hooks/FontRendererHook"
-        }
-      ]
-    },
-    {
+      "fixtype": 0,
       "fix": "Wyvilities messed up name hightlight. Update Wyvtilities from https://github.com/W-OVERFLOW/Wyvtils/releases MAKE SURE TO DOWNLOAD THE 1.8.9 VERSION.",
       "causes": [
         {
@@ -421,6 +450,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Looks like you have a corrupted forge installation. Try re-installing it from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html ",
       "causes": [
         {
@@ -430,6 +460,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Delete Yet Another Skyblock Mod",
       "causes": [
         {
@@ -443,6 +474,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Either try to play without Dungeons Guide or remove it, or contact the dungeons guide discord at discord.gg/dg .",
       "causes": [
         {
@@ -452,6 +484,7 @@
       ]
     },
     {
+      "fixtype": 1,
       "fix": "Log out and back in again in the launcher.",
       "causes": [
         {
@@ -461,6 +494,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Issue with Essential. Contact Sk1er Support https://discord.gg/WqkdC8XbVe",
       "causes": [
         {
@@ -470,6 +504,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Looks like you have two patcher mods installed. Please remove the old one.",
       "causes": [
         {
@@ -479,6 +514,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "This is caused by a random Java process being there when it shouldn't. Restart your computer, or use task manager to close it.",
       "causes": [
         {
@@ -488,6 +524,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Delete `.minecraft/versions/1.8.9/1.8.9.jar`",
       "causes": [
         {
@@ -497,6 +534,7 @@
       ]
     },
     {
+      "fixtype": 0,
       "fix": "Qalcyo and requsitie have been abandonded and are outdated, you can find replacement mods at https://woverflow.cc ",
       "causes": [
         {
@@ -504,6 +542,14 @@
           "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
         }
       ]
+    }
+  ],
+  "fixtypes": [
+    {
+      "name": "Solution"
+    },
+    {
+      "name": "Recommendations"
     }
   ]
 }
