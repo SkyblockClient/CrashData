@@ -332,22 +332,32 @@
       ]
     },
     {
-      "fixtype": 0,
-      "fix": "SkyblockAddons is encountering problems. Get support https://discord.gg/PqTAEek and remove it in the meantime.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "at codes.biscuit.skyblockaddons"
-        }
-      ]
-    },
-    {
       "fixtype": 1,
       "fix": "Sk1er API appears to be down. Please wait until the issue is resolved.",
       "causes": [
         {
           "method": "contains",
           "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "CaseCommands has been replaced by Patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "CaseCommands"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "NoCloseMyChat has been replaced by Patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "NoCloseMyChat"
         }
       ]
     },
