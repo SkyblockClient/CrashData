@@ -332,22 +332,82 @@
       ]
     },
     {
-      "fixtype": 0,
-      "fix": "SkyblockAddons is encountering problems. Get support https://discord.gg/PqTAEek and remove it in the meantime.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "at codes.biscuit.skyblockaddons"
-        }
-      ]
-    },
-    {
       "fixtype": 1,
       "fix": "Sk1er API appears to be down. Please wait until the issue is resolved.",
       "causes": [
         {
           "method": "contains",
           "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "CaseCommands has been replaced by patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "CaseCommands"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "NoCloseMyChat has been replaced by patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "NoCloseMyChat"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "pizzaclient"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "I really wonder how long this text can get, and how it'll look inside of the crash report."
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Cheaters get banned. Nice Skyclient name ripoff.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "sbclient"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ShadyAddons"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "Dont use Orange's simple mods as they are poorly made, bloated, and break optifine.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "orangesimplemod"
         }
       ]
     },
