@@ -665,7 +665,7 @@
     },
     {
       "fixtype": 0,
-      "fix": "User is on latest forge.",
+      "fix": "User is on Forge 2318.",
       "causes": [
         {
           "method": "contains",
@@ -748,6 +748,33 @@
         {
           "method": "contains",
           "value": "club.sk1er.bossbarcustomizer.BossbarMod.loadConfig"
+        }
+      ]
+    },
+    {
+      "fix": "Error with the custom loading gif, This can sometimes be caused by bad video drivers.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "SplashProgress has detected a error loading Minecraft."
+        }
+      ]
+    },
+    {
+      "fix": "Ravens are a bad bird. Chester get beamed.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "RavenB+"
+        }
+      ]
+    },
+    {
+      "fix": "Sounds like a skill issue. Stop running random commands.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.commands.Commands$21$1.printStackTrace(Commands.java:727)"
         }
       ]
     },
