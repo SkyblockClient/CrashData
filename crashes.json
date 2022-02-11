@@ -1,770 +1,778 @@
 {
-    "fixes": [
-      {
-        "fixtype": 1,
-        "fix": "This crash appears to be caused by CustomMainMenu\nUninstall the Mod or Redownload SkyClient",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update"
-          },
-          {
-            "method": "contains",
-            "value": "com.google.gson.JsonSyntaxException"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Enable Player list info: https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4\nIf this does not fix your crash, disable NEU Dwarven overlay: /neu -> mining",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Update your intel Graphics Drivers",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "ig75icd64.dll"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "**Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Support. https://discord.gg/essential**",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Error occurred when downloading file 'https://downloads.essential.gg"
-          }
-        ]
-      },
-      {
-        "fix": "Delete `.minecraft -> versions -> 1.8.9` and `.minecraft -> assets`",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "1.8.json"
-          },
-          {
-            "method": "contains",
-            "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.IllegalArgumentException: Cannot get property PropertyEnum"
-          },
-          {
-            "method": "contains",
-            "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
-          },
-          {
-            "method": "contains",
-            "value": "at net.minecraft.block.BlockStairs.doesSideBlockRendering(BlockStairs.java:79)"
-          },
-          {
-            "method": "contains",
-            "value": "at club.sk1er.patcher.hooks.BlockInfoHook.updateLightMatrix"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Remove the Medal.tv clipping software from your Computer",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "medal-hook64.dl"
-          },
-          {
-            "method": "contains",
-            "value": "atio6axx.dll"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "If you use a Microsoft account, enable multiplayer. You should be able to do so from https://account.xbox.com/en-us/Settings under the Xbox One/Windows 10 Online Safety tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it. From there, they should be able to enable multiplayer for your account.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Failed to login: null"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Try disabling Optifine fast renderer. If you can't access the settings, delete `optionsof.txt` found in `.minecraft/skyclient` ",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "nvoglv64.dll+0xe04120"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Delete any God Mode shortcuts on your PC and relaunch the game.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "EXCEPTION_ACCESS_VIOLATION"
-          },
-          {
-            "method": "contains",
-            "value": "msvcr100.dll+0x36adf"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Unexpecteded NoSuchElementException whilst applying the mixin class: null"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "net.minecraftforge.fml.common.LoaderException: java.lang.AbstractMethodError"
-          },
-          {
-            "method": "contains",
-            "value": "at gg.essential.vigilance.data.PropertyAttributes$Companion.fromPropertyAnnotation(Property.kt:138)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Essential Bug, Fixed in next version. Delete .minecraft/skyclient/essential/onboarding.json",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line"
-          },
-          {
-            "method": "contains",
-            "value": "at gg.essential.data.OnboardingData.loadData(OnboardingData.kt:77)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Update Skyclient Cosmetics",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "org.json.JSONException: JSONObject[\"HpRanks\"] not found."
-          },
-          {
-            "method": "contains",
-            "value": "at org.json.JSONObject.get(JSONObject.java:572)"
-          },
-          {
-            "method": "contains",
-            "value": "at io.github.koxx12dev.scc.utils.Requests.reloadTags(Requests.java:44)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Loading tweak class name gg.essential.loader.stage0.EssentialSetupTweaker"
-          },
-          {
-            "method": "contains",
-            "value": "java.net.SocketTimeoutException: Read timed out"
-          },
-          {
-            "method": "contains",
-            "value": "at gg.essential.loader.stage1.EssentialLoader.fetchLatestMetadata(EssentialLoader.java"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Update patcher to 1.6+",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
-          },
-          {
-            "method": "contains",
-            "value": "at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "One or more of your mods has not been reobfuscated properly. Ask the developer of the mod to fix this issue.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoSuchMethodError: net/minecraft/client/Minecraft"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "net.optifine.ConnectedTextures"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Don't hold F3+C",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Description: Manually triggered debug crash"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "XanderLib encountered an issue whilst installing. Try to update mods that use it. (e.g. EvergreenHUD)",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Caused by: java.lang.NoClassDefFoundError: co/uk/isxander/xanderlib"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at me.Danker"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Your GPU appears to be too old for some rendering options in Minecraft. There is no way to fix this other than upgrading your PC.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.IllegalStateException: Function is not supported"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Essential issue. Get support on Essential discord server: https://discord.gg/essential",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoSuchMethodError: gg.essential.elementa.components.UIWrappedText.<init>(Ljava/lang/String;ZLjava/awt/Color;ZZFLjava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Failed to connect to Skyclient Cosmetics API",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.net.UnknownHostException: koxx12-dev.github.io"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Dont use \"Debug Display Tags\" in Skyclient Cosmetics settings (This is Debug feature for a reason)",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Update Skyclient Cosmetics",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "[io.github.koxx12dev.scc.listeners.ChatListeners:onChatMsgTags:108]: org.json.JSONException: JSONArray[0] is not a JSONObject."
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/layers/LayerCustomHead"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Delete the 'modcore' folder in your .minecraft folder.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: club/sk1er/mods/core/gui/notification/Notifications"
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "Sk1er API appears to be down. Please wait until the issue is resolved.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "CaseCommands has been replaced by patcher, you can remove it from your mods folder.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "CaseCommands"
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "NoCloseMyChat has been replaced by patcher, you can remove it from your mods folder.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "NoCloseMyChat"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Cheaters get banned.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "pizzaclient"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Cheaters get banned.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "I really wonder how long this text can get, and how it'll look inside of the crash report."
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Cheaters get banned. Nice Skyclient name ripoff.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "sbclient"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Cheaters get banned.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "ShadyAddons"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Dont use Orange's simple mods as they are poorly made, bloated, and break optifine.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "orangesimplemod"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "You either have multiple optifine jars in your mods folder or it is corrupted.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoClassDefFoundError: net/optifine/gui/GuiMessage"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Essential is not compatible with OpenJ9, Remove OpenJ9 if you want to use it.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoSuchFieldException: allowedModes"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Cowlections is causing the issue. Remove the mod for now and get support https://discord.gg/KRq5ZY9Hma",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at de.cowtipper.cowlection.util.ChatHelper.sendMessage(ChatHelper.java:"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "EvergreenHUD appears to be outdated. Update here. https://modrinth.com/mod/evergreenhud",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at co.uk.isxander.xanderlib.utils.GuiUtils.stripFormattingCodes(GuiUtils.java:129)"
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "One of your mods tried to render something incorrectly. Make sure they are up to date.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.RuntimeException: No OpenGL context found in the current thread."
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "This looks like the SBA OwO language crash. Join [their discord](https://discord.gg/qBkzcgdPqU) for more info.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.StackOverflowError: Rendering screen"
-          },
-          {
-            "method": "contains",
-            "value": "at net.minecraft.client.gui.FontRenderer.func_78280_d(FontRenderer.java:999)"
-          },
-          {
-            "method": "contains",
-            "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Essential appears to be experiencing issues while downloading. Please be patient while the issue are resolved.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.io.FileNotFoundException: https://downloads.essential.gg"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Update Sk1er's Old Animations Mod https://discord.gg/d4KFR9H (beta discord)",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "[club.sk1er.mods.sk1eroldanimations.ModCoreInstaller:fetchString:262]: java.net.SocketTimeoutException: connect timed out"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Wyvilities messed up name hightlight. Update Wyvtilities from https://github.com/W-OVERFLOW/Wyvtils/releases MAKE SURE TO DOWNLOAD THE 1.8.9 VERSION.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Looks like you have a corrupted forge installation. Try re-installing it from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html ",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.ClassNotFoundException: net.minecraftforge.fml.common.launcher.FMLTweaker"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Delete Yet Another Skyblock Mod",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.util.ConcurrentModificationException"
-          },
-          {
-            "method": "contains",
-            "value": "Enqueued coremod YASMTweaker"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Either try to play without Dungeons Guide or remove it, or contact the dungeons guide discord at discord.gg/dg .",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "DungeonsGuide has ran into error while loading itself"
-          }
-        ]
-      },
-      {
-        "fixtype": 2,
-        "fix": "Log out and back in again in the launcher.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Invalid session (Try restarting your game)"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Issue with Essential. Contact Sk1er Support https://discord.gg/WqkdC8XbVe",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.api.EssentialAPI"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Looks like you have two patcher mods installed. Please remove the old one.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Caused by: java.lang.ClassFormatError: Duplicate field name&signature in class file net/minecraft/client/gui/GuiChat"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "This is caused by a random Java process being there when it shouldn't. Restart your computer, or use task manager to close it.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "at gg.essential.loader.stage1.EssentialLoader.load(EssentialLoader.java:99) ~[stage1.jar:2]"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod, delete the extracted mod and replace it.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "There appear to be jars extracted into the mods directory. This is VERY BAD and will almost NEVER WORK WELL"
-          }
-        ]
-      },
-      {
-        "fix": "Memoryfix is no longer needed as Patcher continues on it's features.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "(MemoryFix-0.3.jar)"
-          }
-        ]
-      },
-      {
-        "fix": "The player api mod is now useless and no mods need it, you can delete it from your mods folder.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "PlayerAPI"
-          }
-        ]
-      },
-      {
-        "fix": "Schematica can sometimes cause your game to run out of memory.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Schematica"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "You are running out of memory. (this might falsely trigger)",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Caused by: java.lang.OutOfMemoryError:"
-          }
-        ]
-      },
-      {
-        "fix": "HitDelayFix is a bannable modification.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "HitDelayFix.jar"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Do `/neu mining` and turn off Dwarven Overlay.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update(MiningOverlay.java:314)"
-          }
-        ]
-      },
-      {
-        "fixtype": 0,
-        "fix": "User is on latest forge.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Powered by Forge 11.15.1.2318"
-          }
-        ]
-      },
-      {
-        "fixtype": 0,
-        "fix": "User is on Optifine M5",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "OptiFine_1.8.9_HD_U_M5"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Contact Feather at discord.gg/feather",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "feather"
-          }
-        ]
-      },
-      {
-        "fixtype": 0,
-        "fix": "User is on feather client.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "feather"
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Chat triggers crash. Try removing the modules you have installed and seeing if it works.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoClassDefFoundError: Could not initialize class com.chattriggers.ctjs"
-          }
-        ]
-      },
-      {
-        "fixtype": 0,
-        "fix": "User is not on latest forge, try updating forge from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html and see if the crash persists.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Powered by Forge 11.15.1.1902 "
-          }
-        ]
-      },
-      {
-        "fixtype": 0,
-        "fix": "User is not on latest forge, try updating forge from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html and see if the crash persists.",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Powered by Forge 11.15.1.1722 "
-          }
-        ]
-      },
-      {
-        "fix": "Delete `.minecraft/versions/1.8.9/1.8.9.jar`",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "Default Missing pack.mcmeta :("
-          }
-        ]
-      },
-      {
-        "fixtype": 1,
-        "fix": "Qalcyo and requsitie have been abandonded and are outdated, you can find replacement mods at https://woverflow.cc ",
-        "causes": [
-          {
-            "method": "contains",
-            "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
-          }
-        ]
-      }
-    ],
-    "fixtypes": [
-      {
-        "name": "Info",
-        "no_ingame_display": true
-      },
-      {
-        "name": "Solution"
-      },
-      {
-        "name": "Recommendations"
-      }
-    ],
-    "default_fix_type": 2
-  }
-  
+  "fixes": [
+    {
+      "fixtype": 1,
+      "fix": "This crash appears to be caused by CustomMainMenu, uninstall the mod from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update"
+        },
+        {
+          "method": "contains",
+          "value": "com.google.gson.JsonSyntaxException"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Enable Player list info: https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4\nIf this does not fix your crash, disable NEU Dwarven overlay: /neu -> mining",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update your intel Graphics Drivers",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ig75icd64.dll"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "**Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Support. https://discord.gg/essential**",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Error occurred when downloading file 'https://downloads.essential.gg"
+        }
+      ]
+    },
+    {
+      "fix": "Delete `.minecraft -> versions -> 1.8.9` and `.minecraft -> assets`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "1.8.json"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.IllegalArgumentException: Cannot get property PropertyEnum"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.state.BlockState$StateImplementation.getValue(BlockState.java:137)"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.block.BlockStairs.doesSideBlockRendering(BlockStairs.java:79)"
+        },
+        {
+          "method": "contains",
+          "value": "at club.sk1er.patcher.hooks.BlockInfoHook.updateLightMatrix"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Remove the Medal.tv clipping software from your Computer",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "medal-hook64.dl"
+        },
+        {
+          "method": "contains",
+          "value": "atio6axx.dll"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "If you use a Microsoft account, enable multiplayer. You should be able to do so from https://account.xbox.com/en-us/Settings under the Xbox One/Windows 10 Online Safety tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it. From there, they should be able to enable multiplayer for your account.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Failed to login: null"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Go to `.minecraft/config/notenoughupdates` and delete `storageItems.json`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscgui.StorageOverlay.render(StorageOverlay.java:599)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Try disabling Optifine fast renderer. If you can't access the settings, delete `optionsof.txt` found in `.minecraft/skyclient` ",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "nvoglv64.dll+0xe04120"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Delete any God Mode shortcuts on your PC and relaunch the game.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "EXCEPTION_ACCESS_VIOLATION"
+        },
+        {
+          "method": "contains",
+          "value": "msvcr100.dll+0x36adf"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Unexpecteded NoSuchElementException whilst applying the mixin class: null"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "The Essential Backend is down and a file is failing to download. Please try again in 5 Minutes",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.AbstractMethodError"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.vigilance.data.PropertyAttributes$Companion.fromPropertyAnnotation(Property.kt:138)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Essential Bug, Fixed in next version. Delete .minecraft/skyclient/essential/onboarding.json",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.data.OnboardingData.loadData(OnboardingData.kt:77)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update Skyclient Cosmetics",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "org.json.JSONException: JSONObject[\"HpRanks\"] not found."
+        },
+        {
+          "method": "contains",
+          "value": "at org.json.JSONObject.get(JSONObject.java:572)"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.utils.Requests.reloadTags(Requests.java:44)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Essential Backend might be down for \"Unplanned Maintanance.\" Try again in a few Minutes.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Loading tweak class name gg.essential.loader.stage0.EssentialSetupTweaker"
+        },
+        {
+          "method": "contains",
+          "value": "java.net.SocketTimeoutException: Read timed out"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage1.EssentialLoader.fetchLatestMetadata(EssentialLoader.java"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update patcher to 1.6+",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at club.sk1er.patcher.registry.AsyncBlockAndItems.load(AsyncBlockAndItems.kt:28)"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscfeatures.CustomSkulls.func_110549_a(CustomSkulls.java:85)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "One or more of your mods has not been reobfuscated properly. Ask the developer of the mod to fix this issue.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoSuchMethodError: net/minecraft/client/Minecraft"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "net.optifine.ConnectedTextures"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Don't hold F3+C",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Description: Manually triggered debug crash"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "XanderLib encountered an issue whilst installing. Try to update mods that use it. (e.g. EvergreenHUD)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.NoClassDefFoundError: co/uk/isxander/xanderlib"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at me.Danker"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Your GPU appears to be too old for some rendering options in Minecraft. There is no way to fix this other than upgrading your PC.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.IllegalStateException: Function is not supported"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Essential issue. Get support on Essential discord server: https://discord.gg/essential",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoSuchMethodError: gg.essential.elementa.components.UIWrappedText.<init>(Ljava/lang/String;ZLjava/awt/Color;ZZFLjava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Failed to connect to Skyclient Cosmetics API",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.net.UnknownHostException: koxx12-dev.github.io"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Dont use \"Debug Display Tags\" in Skyclient Cosmetics settings (This is Debug feature for a reason)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:25)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update Skyclient Cosmetics",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "[io.github.koxx12dev.scc.listeners.ChatListeners:onChatMsgTags:108]: org.json.JSONException: JSONArray[0] is not a JSONObject."
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Likely an issue with SkyblockCatia. This mod has been known to be incompatible with some mods and it is recommended you remove it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/layers/LayerCustomHead"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Delete the 'modcore' folder in your .minecraft folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: club/sk1er/mods/core/gui/notification/Notifications"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Sk1er API appears to be down. Please wait until the issue is resolved.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Server returned HTTP response code: 521 for URL: https://api.sk1er.club"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "CaseCommands has been replaced by patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "CaseCommands"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "NoCloseMyChat has been replaced by patcher, you can remove it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "NoCloseMyChat"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "pizzaclient"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "I really wonder how long this text can get, and how it'll look inside of the crash report."
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. Nice Skyclient name ripoff.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "sbclient"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ShadyAddons"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Dont use Orange's simple mods as they are poorly made, bloated, and break optifine.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "orangesimplemod"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "You either have multiple optifine jars in your mods folder or it is corrupted.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: net/optifine/gui/GuiMessage"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Essential is not compatible with OpenJ9, Remove OpenJ9 if you want to use it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoSuchFieldException: allowedModes"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cowlections is causing the issue. Remove the mod for now and get support https://discord.gg/KRq5ZY9Hma",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at de.cowtipper.cowlection.util.ChatHelper.sendMessage(ChatHelper.java:"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "EvergreenHUD appears to be outdated. Update here. https://modrinth.com/mod/evergreenhud",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at co.uk.isxander.xanderlib.utils.GuiUtils.stripFormattingCodes(GuiUtils.java:129)"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "One of your mods tried to render something incorrectly. Make sure they are up to date.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.RuntimeException: No OpenGL context found in the current thread."
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This looks like the SBA OwO language crash. Join [their discord](https://discord.gg/qBkzcgdPqU) for more info.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.StackOverflowError: Rendering screen"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.gui.FontRenderer.func_78280_d(FontRenderer.java:999)"
+        },
+        {
+          "method": "contains",
+          "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Essential appears to be experiencing issues while downloading. Please be patient while the issue are resolved.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.io.FileNotFoundException: https://downloads.essential.gg"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update Sk1er's Old Animations Mod https://discord.gg/d4KFR9H (beta discord)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "[club.sk1er.mods.sk1eroldanimations.ModCoreInstaller:fetchString:262]: java.net.SocketTimeoutException: connect timed out"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Wyvilities messed up name hightlight. Update Wyvtilities from https://github.com/W-OVERFLOW/Wyvtils/releases MAKE SURE TO DOWNLOAD THE 1.8.9 VERSION.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at net.wyvest.wyvtilities.listeners.Listener.getColor(Listener.kt:"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Looks like you have a corrupted forge installation. Try re-installing it from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html ",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.ClassNotFoundException: net.minecraftforge.fml.common.launcher.FMLTweaker"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Delete Yet Another Skyblock Mod",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.util.ConcurrentModificationException"
+        },
+        {
+          "method": "contains",
+          "value": "Enqueued coremod YASMTweaker"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Either try to play without Dungeons Guide or remove it, or contact the dungeons guide discord at discord.gg/dg .",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "DungeonsGuide has ran into error while loading itself"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Log out and back in again in the launcher.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Invalid session (Try restarting your game)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Issue with Essential. Contact Sk1er Support https://discord.gg/WqkdC8XbVe",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.api.EssentialAPI"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Looks like you have two patcher mods installed. Please remove the old one.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.ClassFormatError: Duplicate field name&signature in class file net/minecraft/client/gui/GuiChat"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This is caused by a random Java process being there when it shouldn't. Restart your computer, or use task manager to close it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage1.EssentialLoader.load(EssentialLoader.java:99) ~[stage1.jar:2]"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod, delete the extracted mod and replace it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "There appear to be jars extracted into the mods directory. This is VERY BAD and will almost NEVER WORK WELL"
+        }
+      ]
+    },
+    {
+      "fix": "Memoryfix is no longer needed as Patcher continues on it's features.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "(MemoryFix-0.3.jar)"
+        }
+      ]
+    },
+    {
+      "fix": "The player api mod is now useless and no mods need it, you can delete it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "PlayerAPI"
+        }
+      ]
+    },
+    {
+      "fix": "Schematica can sometimes cause your game to run out of memory.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Schematica"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "You are running out of memory. (this might falsely trigger)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.OutOfMemoryError:"
+        }
+      ]
+    },
+    {
+      "fix": "HitDelayFix is a bannable modification.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "HitDelayFix.jar"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Do `/neu mining` and turn off Dwarven Overlay.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.overlays.MiningOverlay.update(MiningOverlay.java:314)"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "User is on latest forge.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Powered by Forge 11.15.1.2318"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "User is on Optifine M5",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "OptiFine_1.8.9_HD_U_M5"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Contact Feather at discord.gg/feather",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "feather"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "User is on feather client.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "feather"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Chat triggers crash. Try removing the modules you have installed and seeing if it works.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: Could not initialize class com.chattriggers.ctjs"
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "User is not on latest forge, try updating forge from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html and see if the crash persists.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Powered by Forge 11.15.1.1902 "
+        }
+      ]
+    },
+    {
+      "fixtype": 0,
+      "fix": "User is not on latest forge, try updating forge from https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html and see if the crash persists.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Powered by Forge 11.15.1.1722 "
+        }
+      ]
+    },
+    {
+      "fix": "Delete `.minecraft/versions/1.8.9/1.8.9.jar`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Default Missing pack.mcmeta :("
+        }
+      ]
+    },
+    {
+      "fix": "Delete bossbar customizer.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "club.sk1er.bossbarcustomizer.BossbarMod.loadConfig"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Qalcyo and Requsitie and Queef have been abandonded and are outdated, you can find replacement mods at https://woverflow.cc ",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
+        }
+      ]
+    }
+  ],
+  "fixtypes": [
+    {
+      "name": "Info",
+      "no_ingame_display": true
+    },
+    {
+      "name": "Solution"
+    },
+    {
+      "name": "Recommendations"
+    }
+  ],
+  "default_fix_type": 2
+}
