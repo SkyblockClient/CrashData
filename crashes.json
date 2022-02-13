@@ -416,7 +416,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Dont use Orange's simple mods as they are poorly made, bloated, and break optifine.",
       "causes": [
         {
