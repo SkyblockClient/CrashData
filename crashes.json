@@ -6,7 +6,7 @@
       "causes": [
         {
           "method": "regex",
-          "value": "/This is a regex test and shouldn't normally appear\\./"
+          "value": "This is a regex test and shouldn't normally appear\\."
         }
       ]
     },
