@@ -2,6 +2,16 @@
   "fixes": [
     {
       "fixtype": 2,
+      "fix": "This is a regex test and shouldn't normally appear.",
+      "causes": [
+        {
+          "method": "regex",
+          "value": "/(This is a regex test and shouldn't normally appear\.)/"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
       "fix": "Get SkyClient Updater: https://github.com/nacrt/SkyblockClient-Updater/releases",
       "causes": [
         {
