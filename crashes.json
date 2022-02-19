@@ -291,7 +291,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Danker's Skyblock Mod experienced an issue. Make sure it is up to date.",
+      "fix": "Go to `.minecraft/skyclient/config` and delete `dsmmusic`",
       "causes": [
         {
           "method": "contains",
@@ -754,6 +754,16 @@
         {
           "method": "contains",
           "value": "Powered by Forge 11.15.1.1722 "
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Go to `.minecraft/versions` and delete the 1.8.9 folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "your vanilla jar may be corrupt"
         }
       ]
     },
