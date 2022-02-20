@@ -777,7 +777,8 @@
       ]
     },
     {
-      "fix": "Delete bossbar customizer.",
+      "fixtype": 1,
+      "fix": "Delete the Bossbar Customizer Config found in ``.minecraft -> skyclient -> config -> bossbar_customizer.cfg``\nOr Delete the Mod",
       "causes": [
         {
           "method": "contains",
