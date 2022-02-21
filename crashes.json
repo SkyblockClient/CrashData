@@ -12,7 +12,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Get SkyClient Updater: https://github.com/nacrt/SkyblockClient-Updater/releases",
+      "fix": "Get SkyClient Updater: <https://github.com/nacrt/SkyblockClient-Updater/releases>",
       "causes": [
         {
           "method": "contains",
