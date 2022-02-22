@@ -1,6 +1,16 @@
 {
   "fixes": [
     {
+      "fixtype": 1,
+      "fix": "This crash seems to be caused by ``Hytilities-Reborn``\nRemove it in the meantime",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at net.wyvest.hytilities.Hytilities.onFMLPreInitialization(Hytilities.java:108)"
+        }
+      ]
+    },
+    {
       "fixtype": 2,
       "fix": "This is a regex test and shouldn't normally appear.",
       "causes": [
