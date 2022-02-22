@@ -787,6 +787,16 @@
       ]
     },
     {
+      "fixtype": 2,
+      "fix": "Try removing Skypixel as it's now outdated, unsupported, no longer updated, if you want to find replacements you can do so from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/Skypixel.md> ",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Skypixel"
+        }
+      ]
+    },
+    {
       "fix": "Error with the custom loading gif, This can sometimes be caused by bad video drivers.",
       "causes": [
         {
