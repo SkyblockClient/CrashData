@@ -2,7 +2,7 @@
   "fixes": [
     {
       "fixtype": 1,
-      "fix": "This crash seems to be caused by ``Hytilities-Reborn``\nRemove it in the meantime",
+      "fix": "This crash seems to be caused by ANY and ALL of the following mods: \n``Hytilities-Reborn, VanillaHUD, CrashPatch, Chatting``\nRemove these mods in the meantime",
       "causes": [
         {
           "method": "contains",
