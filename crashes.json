@@ -2,7 +2,7 @@
   "fixes": [
     {
       "fixtype": 1,
-      "fix": "How to fix NEU repo 101\n\nStep 1: Download the repo at  - https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip\nStep 2: Extract the repo and copy its content - https://cdn.discordapp.com/attachments/807409061138006016/832942353839816724/unknown.png\nStep 3: Navigate to .minecraft/config/notenoughupdates/\nStep 4: Create a repo folder if there are none.\nStep 5 : Paste the content you just previously copied\nStep 6 : The final results should look like this - https://cdn.discordapp.com/attachments/807409061138006016/832943231359909898/unknown.png",
+      "fix": "How to fix NEU repo 101\n\nStep 1: Download the repo at  - https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip\nStep 2: Extract the repo and copy its content - https://cdn.discordapp.com/attachments/807409061138006016/832942353839816724/unknown.png\nStep 3: Navigate to .minecraft/skyclient/config/notenoughupdates/\nStep 4: Create a repo folder if there are none.\nStep 5 : Paste the content you just previously copied\nStep 6 : The final results should look like this - https://cdn.discordapp.com/attachments/807409061138006016/832943231359909898/unknown.png",
       "causes": [
         {
           "method": "contains",
