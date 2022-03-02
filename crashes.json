@@ -835,6 +835,16 @@
       ]
     },
     {
+      "fixtype": 1,
+      "fix": "Delete CustomMainMenu from your mods folder at `.minecraft/skyclient/mods`.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at lumien.custommainmenu.configuration.ConfigurationLoader.load(ConfigurationLoader.java:142)"
+        }
+      ]
+    },
+    {
       "fixtype": 2,
       "fix": "Try removing Skypixel as it's now outdated, unsupported, no longer updated, if you want to find replacements you can do so from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/Skypixel.md> ",
       "causes": [
