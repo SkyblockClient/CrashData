@@ -912,6 +912,26 @@
           "value": "java.lang.NoClassDefFoundError: xyz/matthewtgm/requisite/keybinds/KeyBind"
         }
       ]
+    },
+  {
+      "fixtype": 1,
+      "fix": "Delete skyblockaddonspersistant.cfg in `.minecraft/skyclient/config`.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.features.FetchurManager.postPersistentConfigLoad(FetchurManager.java:130)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Your GPU doesn't support Entity Outlines in SkyblockAddons. Try updating your graphics drivers to see if it is resolved." 
+      "causes": [
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.features.EntityOutlines.EntityOutlineRenderer.onTick(EntityOutlineRenderer.java:380)"
+        }
+      ]
     }
   ],
   "fixtypes": [
