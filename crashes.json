@@ -6,7 +6,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+          "value": "at java.util.ArrayList.rangeCheck(ArrayList.java:653)"
         },
         {
           "method": "contains",
