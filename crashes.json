@@ -2,7 +2,7 @@
   "fixes": [
     {
       "fixtype": 1,
-      "fix": "This crash appears to be caused by the NEU Profile Viewer.\nThis is commonly caused by the user having an item that is not in the Item Repo.\nShould this issue persist, you can alternatively use the skytils PV (/st pv <user>)",
+      "fix": "This crash appears to be caused by the NEU Profile Viewer.\nThis is commonly caused by the user having an item that is not in the Item Repo.",
       "causes": [
         {
           "method": "contains",
