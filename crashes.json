@@ -331,7 +331,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.",
+      "fix": "Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures). Consider changing texture packs as well to fix this issue.\nIn some cases ConnectedTextures need to be OFF.",
       "causes": [
         {
           "method": "contains",
