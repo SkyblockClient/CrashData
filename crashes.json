@@ -442,7 +442,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "A mod is looking an old shared library.\n1. Navigate to [%profileroot%]\n2. Remove the folder called modcore",
+      "fix": "A mod is looking for an old shared library.\n1. Navigate to [%profileroot%]\n2. Remove the folder called modcore",
       "causes": [
         {
           "method": "contains",
