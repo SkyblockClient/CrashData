@@ -62,7 +62,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The list of items NotEnoughUpdates uses seems to be corrupt.\n\n1. Download the repo at <https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip>\n2. Extract the repo and copy its content (example at <https://cdn.discordapp.com/attachments/807409061138006016/832942353839816724/unknown.png>)\n3. Navigate to [%root%/config/notenoughupdates/]\n4. Create a repo folder if there are none.\n5. Paste the content you just previously copied\n6. The final results should look like the example at <https://cdn.discordapp.com/attachments/807409061138006016/832943231359909898/unknown.png>",
+      "fix": "The list of items NotEnoughUpdates uses seems to be corrupt.\n\n1. Download the repo at <https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip>\n2. Extract the repo and copy its content (example at <https://cdn.discordapp.com/attachments/807409061138006016/832942353839816724/unknown.png>)\n3. Navigate to [%profileroot%/config/notenoughupdates/]\n4. Create a repo folder if there are none.\n5. Paste the content you just previously copied\n6. The final results should look like the example at <https://cdn.discordapp.com/attachments/807409061138006016/832943231359909898/unknown.png>",
       "causes": [
         {
           "method": "contains",
@@ -76,7 +76,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The cache from the SkyclientCosmetics mod seems to be corrupt.\n1. Navigate to [%root%/SkyclientCosmetics/]\n2. Remove Cache.json",
+      "fix": "The cache from the SkyclientCosmetics mod seems to be corrupt.\n1. Navigate to [%profileroot%/SkyclientCosmetics/]\n2. Remove Cache.json",
       "causes": [
         {
           "method": "contains",
@@ -228,7 +228,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "NotEnoughUpdates' custom storage errored.\n1. Navigate to [%root%/config/notenoughupdates]\n2. Delete storageItems.json",
+      "fix": "NotEnoughUpdates' custom storage errored.\n1. Navigate to [%profileroot%/config/notenoughupdates]\n2. Delete storageItems.json",
       "causes": [
         {
           "method": "contains",
@@ -238,7 +238,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "While rendering, there was an error.\n1. Disable Optifine's fast render.\n2. If you can't access the settings, navigate to [%root%] and delete optionsof.txt",
+      "fix": "While rendering, there was an error.\n1. Disable Optifine's fast render.\n2. If you can't access the settings, navigate to [%profileroot%] and delete optionsof.txt",
       "causes": [
         {
           "method": "contains",
@@ -334,7 +334,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "There was a bug in Essential in an old version.\n1. Navigate to [%root%/essential/]\n2. Delete onboarding.json",
+      "fix": "There was a bug in Essential in an old version.\n1. Navigate to [%profileroot%/essential/]\n2. Delete onboarding.json",
       "causes": [
         {
           "method": "contains",
@@ -402,7 +402,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to [%root%/config]\n2. Delete dsmmusic",
+      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to [%profileroot%/config]\n2. Delete dsmmusic",
       "causes": [
         {
           "method": "contains",
@@ -442,7 +442,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "A mod is looking an old shared library.\n1. Navigate to %root%\n2. Remove the folder called modcore",
+      "fix": "A mod is looking an old shared library.\n1. Navigate to [%profileroot%]\n2. Remove the folder called modcore",
       "causes": [
         {
           "method": "contains",
@@ -452,7 +452,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Optifine's GUI threw an exception.\n1. Remove all optifine jars in [%root%/mods]\n2. Reinstall optifine",
+      "fix": "Optifine's GUI threw an exception.\n1. Remove all optifine jars in [%profileroot%/mods]\n2. Reinstall optifine",
       "causes": [
         {
           "method": "contains",
@@ -604,7 +604,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Bossbar Customizer couldn't load.\n1. Try to delete the bossbar_customizer.cfg file in [%root%/config]\n2. If that doesn't work, you can delete the mod.",
+      "fix": "Bossbar Customizer couldn't load.\n1. Try to delete the bossbar_customizer.cfg file in [%profileroot%/config]\n2. If that doesn't work, you can delete the mod.",
       "causes": [
         {
           "method": "contains",
@@ -614,7 +614,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "CustomMainMenu couldn't load.\n1. Attempt to fix your config for it, and for help, you could ask the community that it came from.\n2. Remove CustomMainMenu from [%root%/mods]",
+      "fix": "CustomMainMenu couldn't load.\n1. Attempt to fix your config for it, and for help, you could ask the community that it came from.\n2. Remove CustomMainMenu from [%profileroot%/mods]",
       "causes": [
         {
           "method": "contains",
@@ -624,7 +624,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Qalcyo, Requsitie and Queef have been abandonded and are outdated.\n1. Remove them from [%root%/mods].\n2. Install some replacement mods <https://woverflow.cc>",
+      "fix": "Qalcyo, Requsitie and Queef have been abandonded and are outdated.\n1. Remove them from [%profileroot%/mods].\n2. Install some replacement mods <https://woverflow.cc>",
       "causes": [
         {
           "method": "contains",
@@ -713,7 +713,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Something went wrong with Forge.\n1. Download Skyclient Updater <https://github.com/nacrt/SkyblockClient-Updater/releases>\n2. Move the jar file to your mods folder [%root%/mods/]",
+      "fix": "Something went wrong with Forge.\n1. Download Skyclient Updater <https://github.com/nacrt/SkyblockClient-Updater/releases>\n2. Move the jar file to your mods folder [%profileroot%/mods/]",
       "causes": [
         {
           "method": "contains",
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%rootdata%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%rootdata%]\n4. Remove the directory assets",
+      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%gameroot%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%gameroot%]\n4. Remove the directory assets",
       "causes": [
         {
           "method": "contains",
@@ -740,7 +740,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%rootdata%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%rootdata%]\n4. Remove the directory assets",
+      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%gameroot%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%gameroot%]\n4. Remove the directory assets",
       "causes": [
         {
           "method": "contains",
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%rootdata%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%rootdata%]\n4. Remove the directory assets",
+      "fix": "Something went wrong inside of core Minecraft.\n1. Navigate to [%gameroot%/versions].\n2. Remove the directory 1.8.9.\n3. Navigate to [%gameroot%]\n4. Remove the directory assets",
       "causes": [
         {
           "method": "contains",
@@ -769,7 +769,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "CaseCommands has been replaced by Patcher.\n1. Remove CaseCommands from [%root%/mods]",
+      "fix": "CaseCommands has been replaced by Patcher.\n1. Remove CaseCommands from [%profileroot%/mods]",
       "causes": [
         {
           "method": "contains",
@@ -779,7 +779,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "NoCloseMyChat has been replaced by Patcher\n1. Remove NoCloseMyChat from [%root%/mods]",
+      "fix": "NoCloseMyChat has been replaced by Patcher\n1. Remove NoCloseMyChat from [%profileroot%/mods]",
       "causes": [
         {
           "method": "contains",
