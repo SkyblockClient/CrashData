@@ -238,7 +238,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "While rendering, there was an error.\n1. Disable Optifine's fast render.\n2. If you can't access the settings, navigate to [%root] and delete optionsof.txt",
+      "fix": "While rendering, there was an error.\n1. Disable Optifine's fast render.\n2. If you can't access the settings, navigate to [%root%] and delete optionsof.txt",
       "causes": [
         {
           "method": "contains",
@@ -334,7 +334,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "There was a bug in Essential in an old version.\n1. Navigate to [%root/essential/]\n2. Delete onboarding.json",
+      "fix": "There was a bug in Essential in an old version.\n1. Navigate to [%root%/essential/]\n2. Delete onboarding.json",
       "causes": [
         {
           "method": "contains",
@@ -402,7 +402,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to [%root/config]\n2. Delete dsmmusic",
+      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to [%root%/config]\n2. Delete dsmmusic",
       "causes": [
         {
           "method": "contains",
@@ -452,7 +452,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Optifine's GUI threw an exception.\nYou either have multiple optifine jars in your mods folder or it is corrupted.",
+      "fix": "Optifine's GUI threw an exception.\n1. Remove all optifine jars in [%root%/mods]\n2. Reinstall optifine",
       "causes": [
         {
           "method": "contains",
@@ -530,7 +530,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Delete Yet Another Skyblock Mod",
+      "fix": "YASM caused a crash.\n1. Delete Yet Another Skyblock Mod",
       "causes": [
         {
           "method": "contains",
@@ -544,7 +544,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Either try to play without Dungeons Guide or remove it, or contact the dungeons guide discord at discord.gg/dg .",
+      "fix": "DungeonsGuide couldn't load.\n1. Attempt to get support at <https://discord.gg/dg>\n2. If you can't get it to work, remove it.",
       "causes": [
         {
           "method": "contains",
@@ -554,7 +554,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Essential. Contact Essential's support <https://discord.gg/essential>",
+      "fix": "Issue with Essential.\n1. Contact Essential's support <https://discord.gg/essential>",
       "causes": [
         {
           "method": "contains",
@@ -564,7 +564,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Looks like you have two patcher mods installed. Please remove the old one.",
+      "fix": "Looks like you have two patcher mods installed.\n1. Please remove the old one.",
       "causes": [
         {
           "method": "contains",
@@ -574,7 +574,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "This is caused by a random Java process being there when it shouldn't. Restart your computer, or use task manager to close it.",
+      "fix": "This is caused by a random Java process being there when it shouldn't.\n1. Restart your computer, or use task manager to close it.",
       "causes": [
         {
           "method": "contains",
@@ -584,7 +584,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod, delete the extracted mod and replace it.",
+      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod.\n1. Delete the extracted mod.\n2. Install the original jar.",
       "causes": [
         {
           "method": "contains",
@@ -594,7 +594,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "You are running out of memory. (this might falsely trigger)",
+      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers).",
       "causes": [
         {
           "method": "contains",
@@ -769,7 +769,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "CaseCommands has been replaced by Patcher.\n1. Remove CaseCommands from [%root/mods]",
+      "fix": "CaseCommands has been replaced by Patcher.\n1. Remove CaseCommands from [%root%/mods]",
       "causes": [
         {
           "method": "contains",
@@ -779,7 +779,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "NoCloseMyChat has been replaced by Patcher\n1. Remove NoCloseMyChat from [%root/mods]",
+      "fix": "NoCloseMyChat has been replaced by Patcher\n1. Remove NoCloseMyChat from [%root%/mods]",
       "causes": [
         {
           "method": "contains",
