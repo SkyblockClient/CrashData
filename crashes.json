@@ -893,6 +893,26 @@
           "value": "io.github.moulberry.notenoughupdates.commands.Commands$21$1.printStackTrace(Commands.java:727)"
         }
       ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "SkyblockAddons ran into an error while trying to show you what Fetchur wants.\n1. Navigate to [%root%/config]\n2. Delete skyblockaddonspersistant.cfg.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.features.FetchurManager.postPersistentConfigLoad(FetchurManager.java:130)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "SkyblockAddons ran into an error while trying to render Entity Outlines, probably caused by your GPU.\n1. Try updating your graphics drivers." 
+      "causes": [
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.features.EntityOutlines.EntityOutlineRenderer.onTick(EntityOutlineRenderer.java:380)"
+        }
+      ]
     }
   ],
   "fixtypes": [
