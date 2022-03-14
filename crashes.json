@@ -925,7 +925,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Your GPU doesn't support Entity Outlines in SkyblockAddons. Try updating your graphics drivers to see if it is resolved." 
+      "fix": "Your GPU doesn't support Entity Outlines in SkyblockAddons. Try updating your graphics drivers to see if it is resolved.",
       "causes": [
         {
           "method": "contains",
