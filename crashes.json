@@ -109,6 +109,7 @@
       ]
     },
     {
+      "name": "oldscc",
       "fixtype": 1,
       "fix": "There was a bug in SkyclientCosmetics in an old version.\n1. Update SkyclientCosmetics",
       "causes": [
@@ -127,6 +128,7 @@
       ]
     },
     {
+      "name": "oldscc",
       "fixtype": 1,
       "fix": "SkyclientCosmetics had an error parsing JSON.\n1. Update SkyclientCosmetics",
       "causes": [
@@ -151,6 +153,7 @@
       ]
     },
     {
+      "name": "miningoverlay",
       "fixtype": 1,
       "fix": "Something went wrong with NotEnoughUpdates' mining overlay.\n1. Enable Player list info (example at <https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4>)\n2. If this does not fix your crash, disable NotEnoughUpdates' Dwarven overlay (by running /neu mining)",
       "causes": [
@@ -161,6 +164,7 @@
       ]
     },
     {
+      "name": "inteldrivers",
       "fixtype": 1,
       "fix": "Update your Intel Graphics Drivers",
       "causes": [
@@ -181,6 +185,7 @@
       ]
     },
     {
+      "name": "vanillablockchange",
       "fixtype": 1,
       "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
@@ -203,6 +208,7 @@
       ]
     },
     {
+      "name": "medal",
       "fixtype": 1,
       "fix": "Medal's drivers interfered.\n1. Remove the Medal.tv clipping software from your computer",
       "causes": [
@@ -227,6 +233,7 @@
       ]
     },
     {
+      "name": "neustorage",
       "fixtype": 1,
       "fix": "NotEnoughUpdates' custom storage errored.\n1. Navigate to [%profileroot%/config/notenoughupdates]\n2. Delete storageItems.json",
       "causes": [
@@ -247,6 +254,7 @@
       ]
     },
     {
+      "name": "godmode",
       "fixtype": 1,
       "fix": "There was an error in Windows.\n1. Delete any God Mode shortcuts on your PC.",
       "causes": [
@@ -333,6 +341,7 @@
       ]
     },
     {
+      "name": "essentialonboarding",
       "fixtype": 1,
       "fix": "There was a bug in Essential in an old version.\n1. Navigate to [%profileroot%/essential/]\n2. Delete onboarding.json",
       "causes": [
@@ -347,6 +356,7 @@
       ]
     },
     {
+      "name": "oldpatcher",
       "fixtype": 1,
       "fix": "NotEnoughUpdates is conflicting with an old version of Patcher.\n1. Update patcher to 1.6+",
       "causes": [
@@ -371,6 +381,7 @@
       ]
     },
     {
+      "name": "ctm",
       "fixtype": 1,
       "fix": "Optifine's connected textures had an error.\n1. Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures).\n2. Consider changing texture packs as well to fix this issue.\n3. If that still doesn't work, in some cases ConnectedTextures need to be OFF.",
       "causes": [
@@ -381,6 +392,7 @@
       ]
     },
     {
+      "name": "debug",
       "fixtype": 1,
       "fix": "YOU LITERALLY INTENTIONALLY CRASHED THE GAME\n. %gameroot% %profileroot% Don't hold F3+C",
       "causes": [
@@ -401,6 +413,7 @@
       ]
     },
     {
+      "name": "dsmmusic",
       "fixtype": 1,
       "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to [%profileroot%/config]\n2. Delete dsmmusic",
       "causes": [
@@ -411,6 +424,7 @@
       ]
     },
     {
+      "name": "oldpc",
       "fixtype": 1,
       "fix": "Your GPU appears to be too old for some rendering options in Minecraft.\n1. Upgrade your PC. (No seriously, that's the only way)",
       "causes": [
@@ -431,6 +445,7 @@
       ]
     },
     {
+      "name": "debugtags",
       "fixtype": 1,
       "fix": "While SkyclientCosmetics was rendering a name, an error was encountered.\n1. Don't use \"Debug Display Tags\" in SkyclientCosmetics settings (It's a debug feature for a reason)",
       "causes": [
@@ -491,6 +506,7 @@
       ]
     },
     {
+      "name": "owo",
       "fixtype": 1,
       "fix": "This looks like the SBA OwO language crash.\n1. Join their discord for more info <https://discord.gg/biscuit>",
       "causes": [
@@ -509,6 +525,7 @@
       ]
     },
     {
+      "name": "sk1eroam",
       "fixtype": 1,
       "fix": "Sk1er's Old Animations is old.\n1. Get help in <https://discord.gg/d4KFR9H>",
       "causes": [
@@ -519,8 +536,9 @@
       ]
     },
     {
+      "name": "wyvtilsname",
       "fixtype": 1,
-      "fix": "Wyvilities messed up name highlighting.\n1. Update Wyvtilities from <https://github.com/W-OVERFLOW/Wyvtils/releases> (THE 1.8.9 VERSION.)",
+      "fix": "Wyvilities messed up name highlighting.\n1. Delete wyvtils and replace it with mods from <https://github.com/W-OVERFLOW/Wyvtils/releases>",
       "causes": [
         {
           "method": "contains",
@@ -529,6 +547,7 @@
       ]
     },
     {
+      "name": "yasm",
       "fixtype": 1,
       "fix": "YASM caused a crash.\n1. Delete Yet Another Skyblock Mod",
       "causes": [
@@ -543,6 +562,7 @@
       ]
     },
     {
+      "name": "dgload",
       "fixtype": 1,
       "fix": "DungeonsGuide couldn't load.\n1. Attempt to get support at <https://discord.gg/dg>\n2. If you can't get it to work, remove it.",
       "causes": [
@@ -563,6 +583,7 @@
       ]
     },
     {
+      "name": "doublepatcher",
       "fixtype": 1,
       "fix": "Looks like you have two patcher mods installed.\n1. Please remove the old one.",
       "causes": [
@@ -573,6 +594,7 @@
       ]
     },
     {
+      "name": "javaprocess",
       "fixtype": 1,
       "fix": "This is caused by a random Java process being there when it shouldn't.\n1. Restart your computer, or use task manager to close it.",
       "causes": [
@@ -583,6 +605,7 @@
       ]
     },
     {
+      "name": "extracted",
       "fixtype": 1,
       "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod.\n1. Delete the extracted mod.\n2. Install the original jar.",
       "causes": [
@@ -593,8 +616,9 @@
       ]
     },
     {
+      "name": "outofmem",
       "fixtype": 1,
-      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers).",
+      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers for what `reasonable` is.).",
       "causes": [
         {
           "method": "contains",
@@ -603,6 +627,7 @@
       ]
     },
     {
+      "name": "bossbar",
       "fixtype": 1,
       "fix": "Bossbar Customizer couldn't load.\n1. Try to delete the bossbar_customizer.cfg file in [%profileroot%/config]\n2. If that doesn't work, you can delete the mod.",
       "causes": [
@@ -613,6 +638,7 @@
       ]
     },
     {
+      "name": "cmmload",
       "fixtype": 1,
       "fix": "CustomMainMenu couldn't load.\n1. Attempt to fix your config for it, and for help, you could ask the community that it came from.\n2. Remove CustomMainMenu from [%profileroot%/mods]",
       "causes": [
@@ -623,6 +649,7 @@
       ]
     },
     {
+      "name": "queefering",
       "fixtype": 1,
       "fix": "Qalcyo, Requsitie and Queef have been abandonded and are outdated.\n1. Remove them from [%profileroot%/mods].\n2. Install some replacement mods <https://woverflow.cc>",
       "causes": [
@@ -713,7 +740,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Something went wrong with Forge.\n1. Download Skyclient Updater <https://github.com/nacrt/SkyblockClient-Updater/releases>\n2. Move the jar file to your mods folder [%profileroot%/mods/]",
+      "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the jar file to your mods folder [%profileroot%/mods/]",
       "causes": [
         {
           "method": "contains",
@@ -758,6 +785,7 @@
       ]
     },
     {
+      "name": "sbc",
       "fixtype": 2,
       "fix": "Likely an issue with SkyblockCatia.\n1. Remove it, as this mod has been known to be incompatible with some mods.",
       "causes": [
@@ -798,6 +826,7 @@
       ]
     },
     {
+      "name": "skypixel",
       "fixtype": 2,
       "fix": "Something related to Skypixel crashed.\n1. Don't use them as they are outdated, unsupported, and no longer updated.\n2. Find alternatives from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/Skypixel.md>",
       "causes": [
@@ -829,7 +858,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "This crash appears to be caused by the NEU Profile Viewer.\nThis is commonly caused by the user having an item that is not in the Item Repo.",
+      "fix": "This crash appears to be caused by the NEU Profile Viewer.\nThis is commonly caused by the user having an item that is not in the Item Repo. (e.g; bugged items)",
       "causes": [
         {
           "method": "contains",
@@ -859,7 +888,7 @@
       ]
     },
     {
-      "fix": "PlayerAPI is no longer needed.",
+      "fix": "PlayerAPI is no longer needed. You can remove it from your mods folder.",
       "causes": [
         {
           "method": "contains",
@@ -895,6 +924,7 @@
       ]
     },
     {
+      "name": "sbafetchur",
       "fixtype": 1,
       "fix": "SkyblockAddons ran into an error while trying to show you what Fetchur wants.\n1. Navigate to [%root%/config]\n2. Delete skyblockaddonspersistant.cfg.",
       "causes": [
@@ -916,7 +946,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "SkyblockAddons ran into an error while trying to render Entity Outlines, probably caused by your GPU.\n1. Try updating your graphics drivers." ,
+      "fix": "SkyblockAddons ran into an error while trying to render Entity Outlines, probably caused by your GPU.\n1. Try updating your graphics drivers.",
       "causes": [
         {
           "method": "contains",
