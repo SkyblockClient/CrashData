@@ -382,7 +382,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "YOU LITERALLY INTENTIONALLY CRASHED THE GAME\n1. Don't hold F3+C",
+      "fix": "YOU LITERALLY INTENTIONALLY CRASHED THE GAME\n. %gameroot% %profileroot% Don't hold F3+C",
       "causes": [
         {
           "method": "contains",
