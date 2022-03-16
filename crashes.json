@@ -618,7 +618,7 @@
     {
       "name": "outofmem",
       "fixtype": 1,
-      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers for what `reasonable` is.).",
+      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers for what \"reasonable\" is.).",
       "causes": [
         {
           "method": "contains",
