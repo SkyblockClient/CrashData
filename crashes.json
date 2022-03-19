@@ -741,7 +741,11 @@
     {
       "fixtype": 2,
       "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the jar file to your mods folder %pathindicator%%profileroot%/mods/%pathindicator%",
-      "causes": [
+      "causes": 
+        {
+          "method": "contains",
+          "value": "-- System Details --"
+        },
         {
           "method": "contains",
           "value": "forge-1.8.9-11.15.1.2318-1.8.9.jar"
