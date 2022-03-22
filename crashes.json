@@ -1,6 +1,16 @@
 {
   "fixes": [
     {
+      "fixtype": 3,
+      "fix": "The Hypixel Alpha server is currently closed!",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "The Hypixel Alpha server is currently closed!"
+        }
+      ]
+    },
+    {
       "fixtype": 0,
       "fix": "You are on Forge 2318.",
       "causes": [
@@ -980,6 +990,10 @@
     },
     {
       "name": "Recommendations"
+    },
+    {
+      "name": "Disconnect Reason",
+      "server_crashes": true
     }
   ],
   "default_fix_type": 2
