@@ -2,6 +2,16 @@
   "fixes": [
     {
       "fixtype": 3,
+      "fix": "To fix the problem you need to go to this link: https://account.xbox.com/settings\n\nThat will lead you to xbox account settings, and since new Minecraft accounts run with Microsoft, both platforms are technically linked together.\n\nHere is what you need to do:\n\nGo to https://account.xbox.com/settings\n\nIt will probably tell you to log into Microsoft so log in\n\n(if it doesn't say it and directs you to the website, make sure you're signed in)\n\n3. If you don't have an Xbox account, it will ask you to make one, so make any account.\n\nThat will direct you to the website\n\n3. If you scroll down, under your username and Avatar it should say \"Xbox one/windows 10 online safety\" click on that\n\n4. Scroll down until you see \"You can join multiplayer games\" allow or block,\n\nallow this\n\nRelaunch Minecraft and you should be able to join any multiplayer server.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Failed to login: null"
+        }
+      ]
+    },
+    {
+      "fixtype": 3,
       "fix": "The Hypixel Alpha server is currently closed!",
       "causes": [
         {
