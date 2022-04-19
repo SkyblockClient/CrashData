@@ -681,7 +681,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Cheaters get banned.",
+      "fix": "Cheaters get banned. (PizzaClient)",
       "causes": [
         {
           "method": "contains",
@@ -691,7 +691,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Cheaters get banned.",
+      "fix": "Cheaters get banned. (PizzaClientV2)",
       "causes": [
         {
           "method": "contains",
@@ -701,7 +701,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Cheaters get banned.",
+      "fix": "Cheaters get banned. (ShoddyAddons)",
       "causes": [
         {
           "method": "contains",
@@ -721,7 +721,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Ravens are a bad bird. Chester get beamed.",
+      "fix": "Cheaters get banned. (RavenB+)",
       "causes": [
         {
           "method": "contains",
@@ -841,7 +841,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Something related to Orange's simple mods crashed.\n1. Don't use them as they are poorly made, bloated, and break optifine.",
+      "fix": "Oranges Simple Mods might break things as they are poorly made, bloated, and break optifine features.",
       "causes": [
         {
           "method": "contains",
@@ -852,7 +852,7 @@
     {
       "name": "skypixel",
       "fixtype": 2,
-      "fix": "Something related to Skypixel crashed.\n1. Don't use them as they are outdated, unsupported, and no longer updated.\n2. Find alternatives from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/Skypixel.md>",
+      "fix": "Skypixel is old, unmaintained, and has many bugs. Find alternatives from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/Skypixel.md>",
       "causes": [
         {
           "method": "contains",
@@ -862,7 +862,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "One of your mods tried to render something incorrectly.\n1. Update your mods.",
+      "fix": "One of your mods tried to render something incorrectly.\n1. Try to update your mods.",
       "causes": [
         {
           "method": "contains",
@@ -907,7 +907,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "(MemoryFix-0.3.jar)"
+          "value": "MemoryFix-0.3.jar"
         }
       ]
     },
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "fix": "Schematica can sometimes cause your game to run out of memory.",
+      "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
           "method": "contains",
@@ -930,7 +930,7 @@
       ]
     },
     {
-      "fix": "Error with the custom loading gif, This can sometimes be caused by bad video drivers.",
+      "fix": "Error with the custom loading gif, This can sometimes be caused by bad video drivers, consider updating.",
       "causes": [
         {
           "method": "contains",
@@ -965,6 +965,150 @@
         {
           "method": "contains",
           "value": "codes.biscuit.skyblockaddons.features.EntityOutlines.EntityOutlineRenderer.onTick(EntityOutlineRenderer.java:380)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (Oringo v2)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "modid-1.0-all"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (liquidbounce)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "liquidbounce"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (FunnyMap)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "FunnyMap"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (soopyAddonsPrivate)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "soopyAddonsPrivate"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (CoordGhostblocks)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Module{name=CoordGhostblocks"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (kmv5)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "kmv5"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (ezSkyblockScripts)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "ezSkyblockScripts"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (NotEnoughRacism)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Module{name=NotEnoughRacism"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (baritone)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "baritone"
+        },
+        {
+          "method": "contains",
+          "value": "cache"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (egomscripts)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "egomscripts"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (IllegalMap)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Module{name=IllegalMap"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Looks like an issue with Synthesis, get support at https://discord.gg/vAUuKSwbp6",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at com.luna.synthesis.features.cleanup.LoreCleanup.onItemTooltip(LoreCleanup.java:95)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "The icon for Skyclient is corrupted, you can simply delete the itlt mod from your mods folder or wait for a human to help you out.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at dk.zlepper.itlt.helpers.IconLoader.getIconRatio(IconLoader.java:120)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "SCC had an issue rendering a player, make sure you have debug options OFF and the mod is up to date!",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:40)"
         }
       ]
     },
