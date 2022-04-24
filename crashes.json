@@ -1161,7 +1161,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "There is a duplicate mod in your mods folder. Please go to your mods folder (.minecraft/skyclient/mods if you are using SkyClient, .minecraft/mods for everything else) and remove all duplicate mods.",
+      "fix": "There is a duplicate mod in your mods folder. Please go to your mods folder (%pathindicator%%profileroot%/mods%pathindicator%) and remove all duplicate mods.",
       "causes": [
         {
           "method": "contains",
