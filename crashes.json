@@ -970,7 +970,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Delete (%pathindicator%%profileroot%/W-OVERFLOW/REDACTION/hitboxes.json%pathindicator%)",
+      "fix": "Delete %pathindicator%%profileroot%/W-OVERFLOW/REDACTION/hitboxes.json%pathindicator%",
       "causes": [
         {
           "method": "contains",
