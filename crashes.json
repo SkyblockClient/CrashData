@@ -2,32 +2,6 @@
   "fixes": [
     {
       "fixtype": 3,
-      "fix": "Delete the folder %pathindicator%%profileroot%/essential%pathindicator%",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "java.lang.RuntimeException: java.lang.reflect.InvocationTargetException"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage0.EssentialSetupTweaker.<init>"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage1.EssentialLoaderBase.load"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage1.EssentialSetupTweaker.<init>"
-        },
-        {
-          "method": "contains",
-          "value": "Caused by: java.util.zip.ZipError: zip END header not found"
-        }
-      ]
-    },
-    {
-      "fixtype": 3,
       "fix": "To fix the problem you need to go to this link: https://account.xbox.com/settings\n\nThat will lead you to xbox account settings, and since new Minecraft accounts run with Microsoft, both platforms are technically linked together.\n\nHere is what you need to do:\n\nGo to https://account.xbox.com/settings\n\nIt will probably tell you to log into Microsoft so log in\n\n(if it doesn't say it and directs you to the website, make sure you're signed in)\n\n3. If you don't have an Xbox account, it will ask you to make one, so make any account.\n\nThat will direct you to the website\n\n3. If you scroll down, under your username and Avatar it should say \"Xbox one/windows 10 online safety\" click on that\n\n4. Scroll down until you see \"You can join multiplayer games\" allow or block,\n\nallow this\n\nRelaunch Minecraft and you should be able to join any multiplayer server.",
       "causes": [
         {
@@ -996,6 +970,20 @@
     },
     {
       "fixtype": 1,
+      "fix": "Delete (%pathindicator%%profileroot%/W-OVERFLOW/REDACTION/hitboxes.json%pathindicator%)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.IllegalStateException: Not a JSON Object:"
+        },
+        {
+          "method": "contains",
+          "value": "at net.wyvest.redaction.features.hitbox.Hitboxes.initialize(Hitboxes.kt:21)"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
       "fix": "Cheaters get banned. (Oringo v2)",
       "causes": [
         {
@@ -1005,7 +993,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (liquidbounce)",
       "causes": [
         {
@@ -1015,7 +1003,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (FunnyMap)",
       "causes": [
         {
@@ -1025,7 +1013,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (soopyAddonsPrivate)",
       "causes": [
         {
@@ -1035,7 +1023,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (CoordGhostblocks)",
       "causes": [
         {
@@ -1045,7 +1033,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (kmv5)",
       "causes": [
         {
@@ -1055,7 +1043,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (ezSkyblockScripts)",
       "causes": [
         {
@@ -1065,7 +1053,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (NotEnoughRacism)",
       "causes": [
         {
@@ -1075,7 +1063,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (baritone)",
       "causes": [
         {
@@ -1089,7 +1077,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (egomscripts)",
       "causes": [
         {
@@ -1099,7 +1087,7 @@
       ]
     },
     {
-      "fixtype": 1,
+      "fixtype": 2,
       "fix": "Cheaters get banned. (IllegalMap)",
       "causes": [
         {
@@ -1120,6 +1108,46 @@
     },
     {
       "fixtype": 1,
+      "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Skytils may have caused this crash."
+        },
+        {
+          "method": "contains",
+          "value": "// Did Sychic do that?"
+        }
+      ]
+    },
+    {
+      "fixtype": 3,
+      "fix": "Delete the folder %pathindicator%%profileroot%/essential%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.RuntimeException: java.lang.reflect.InvocationTargetException"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage0.EssentialSetupTweaker.<init>"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage1.EssentialLoaderBase.load"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.essential.loader.stage1.EssentialSetupTweaker.<init>"
+        },
+        {
+          "method": "contains",
+          "value": "Caused by: java.util.zip.ZipError: zip END header not found"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
       "fix": "The icon for Skyclient is corrupted, you can simply delete the itlt mod from your mods folder or wait for a human to help you out.",
       "causes": [
         {
@@ -1130,7 +1158,25 @@
     },
     {
       "fixtype": 1,
-      "fix": "SCC had an issue rendering a player, make sure you have debug options OFF and the mod is up to date!",
+      "fix": "Issue with skytils, make sure it's up to date.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at gg.essential.elementa.markdown.drawables.DrawableList.cursorAt(DrawableList.kt:88)"
+        },
+        {
+          "method": "contains",
+          "value": "Screen name: skytils.skytilsmod.gui.RequestUpdateGui"
+        },
+        {
+          "method": "contains",
+          "value": "kotlin.NotImplementedError: An operation is not implemented."
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "SCC had an issue rendering an entity, make sure you have debug options OFF and the mod is up to date! Please wait for a developer to help you if the issue continues",
       "causes": [
         {
           "method": "contains",
@@ -1139,8 +1185,46 @@
       ]
     },
     {
-      "name": "pojav",
       "fixtype": 1,
+      "fix": "There is a duplicate mod in your mods folder. Please go to your mods folder (%pathindicator%%profileroot%/mods%pathindicator%) and remove all duplicate mods.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.renderer.entity.RenderItem.<init>"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "SCC had an issue rendering an entity, make sure you have debug options OFF and the mod is up to date! Please wait for a developer to help you if the issue continues",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.koxx12dev.scc.listeners.PlayerListeners.onNameFormat(PlayerListeners.java:40) ~[PlayerListeners.class:?]"
+        },
+        {
+          "method": "contains",
+          "value": "Exception caught during firing event net.minecraftforge.event.entity.player.PlayerEvent$NameFormat"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Make sure your drivers are up to date, if not consider updating. If the issue persists try deleting SkyclientCosmetics from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.RuntimeException: No OpenGL context found in the current thread."
+        },
+        {
+          "method": "contains",
+          "value": "at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)"
+        }
+      ]
+    },
+    {
+      "name": "pojav",
+      "fixtype": 2,
       "fix": "Pojav Launcher causes various issue and may break at any moment. You will not recieve support with it.",
       "causes": [
         {
@@ -1156,16 +1240,6 @@
         {
           "method": "contains",
           "value": "codes.biscuit.skyblockaddons.features.EntityOutlines.EntityOutlineRenderer.onTick(EntityOutlineRenderer.java:380)"
-        }
-      ]
-    },
-    {
-      "fixtype": 1,
-      "fix": "There is a duplicate mod in your mods folder. Please go to your mods folder (%pathindicator%%profileroot%/mods%pathindicator%) and remove all duplicate mods.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "at net.minecraft.client.renderer.entity.RenderItem.<init>"
         }
       ]
     }
