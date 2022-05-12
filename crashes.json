@@ -1,6 +1,29 @@
 {
   "fixes": [
     {
+      "name": "sbaconfig",
+      "fixtype": 3,
+      "fix": "Put the following files into %pathindicator%%profileroot%/config%pathindicator%:\nhttps://cdn.discordapp.com/attachments/887818760126345246/974401087094284298/skyblockaddons.cfg\nhttps://cdn.discordapp.com/attachments/887818760126345246/974401087316561980/skyblockaddons_persistent.cfg",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NullPointerException"
+        },
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.config.ConfigValues.addDefaultsAndSave"
+        },
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.config.ConfigValues.loadValues"
+        },
+        {
+          "method": "contains",
+          "value": "codes.biscuit.skyblockaddons.SkyblockAddons.preInit"
+        }
+      ]
+    },
+    {
       "fixtype": 3,
       "fix": "Delete the folder %pathindicator%%profileroot%/essential%pathindicator%",
       "causes": [
