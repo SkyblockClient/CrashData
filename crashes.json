@@ -452,7 +452,7 @@
     {
       "name": "ctm",
       "fixtype": 1,
-      "fix": "Optifine's connected textures had an error.\n1. Change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures).\n2. Consider changing texture packs as well to fix this issue.\n3. If that still doesn't work, in some cases ConnectedTextures need to be OFF.",
+      "fix": "Optifine's connected textures had an error. Update Patcher to the latest version (Recommended)\nAlternatively, change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures).",
       "causes": [
         {
           "method": "contains",
