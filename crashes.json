@@ -1157,7 +1157,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils",
+      "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils or downgrade to 1.2.6",
       "causes": [
         {
           "method": "contains",
