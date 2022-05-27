@@ -1156,16 +1156,13 @@
       ]
     },
     {
+      "name": "skytilsbad",
       "fixtype": 1,
       "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils or downgrade to 1.2.6",
       "causes": [
         {
           "method": "contains",
-          "value": "Skytils may have caused this crash."
-        },
-        {
-          "method": "contains",
-          "value": "// Did Sychic do that?"
+          "value": "Could not initialize class gg.skytils.skytilsmod.utils.graphics.ScreenRenderer"
         }
       ]
     },
