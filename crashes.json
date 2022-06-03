@@ -999,7 +999,7 @@
     {
       "name": "sbafetchur",
       "fixtype": 1,
-      "fix": "SkyblockAddons ran into an error while trying to show you what Fetchur wants.\n1. Navigate to %pathindicator%%root%/config%pathindicator%\n2. Delete skyblockaddonspersistant.cfg.",
+      "fix": "SkyblockAddons ran into an error while trying to show you what Fetchur wants.\n1. Navigate to %pathindicator%%profileroot%/config%pathindicator%\n2. Delete skyblockaddonspersistant.cfg.",
       "causes": [
         {
           "method": "contains",
