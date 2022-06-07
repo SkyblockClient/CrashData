@@ -1,6 +1,21 @@
 {
   "fixes": [
     {
+      "name": "ctparticles",
+      "fixtype": 1,
+      "fix": "The ChatTriggers module \"ToggleParticles\" seems to be causing issues.\n1. Navigate to %pathindicator%%profileroot%/config/ChatTriggers/modules%pathindicator%\n2. Delete ToggleParticles",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NullPointerException: Exception while adding particle"
+        },
+        {
+          "method": "contains",
+          "value": "at net.optifine.CustomColors.updateWaterFX"
+        }
+      ]
+    },
+    {
       "name": "sbaconfig",
       "fixtype": 1,
       "fix": "Put the following files into %pathindicator%%profileroot%/config%pathindicator%:\nhttps://cdn.discordapp.com/attachments/887818760126345246/974401087094284298/skyblockaddons.cfg\nhttps://cdn.discordapp.com/attachments/887818760126345246/974401087316561980/skyblockaddons_persistent.cfg",
