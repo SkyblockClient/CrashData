@@ -3,7 +3,7 @@
     {
       "name": "ctparticles",
       "fixtype": 1,
-      "fix": "The ChatTriggers module \"ToggleParticles\" seems to be causing issues.\n1. Navigate to %pathindicator%%profileroot%/config/ChatTriggers/modules%pathindicator%\n2. Delete ToggleParticles",
+      "fix": "The ChatTriggers module \"ToggleParticles\" seems to be causing issues.\n1. Navigate to %pathindicator%%profileroot%/config/ChatTriggers/modules%pathindicator%\n2. Delete ToggleParticles\n3. Reload the Game or your ChatTriggers modules",
       "causes": [
         {
           "method": "contains",
