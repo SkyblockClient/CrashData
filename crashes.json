@@ -1173,7 +1173,7 @@
     {
       "name": "skytilsbad",
       "fixtype": 1,
-      "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils or downgrade to 1.2.6",
+      "fix": "It looks like Skytils caused this crash. Check with them at their discord at discord.gg/skytils or downgrade to 1.2.5",
       "causes": [
         {
           "method": "contains",
