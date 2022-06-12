@@ -1,5 +1,16 @@
 {
-  "fixes": [    
+  "fixes": [
+    {
+      "name": "-805306369",
+      "fixtype": 1,
+      "fix": "Try disabling the \"discord rich presence\" aka \"rpc\" aka \"discord status\" settings in /dg, /sba and /scc",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "THERE ARE NO CAUSES!!!!"
+        }
+      ]
+    },
     {
       "name": "tempfilesfull",
       "fixtype": 1,
