@@ -1,5 +1,16 @@
 {
-  "fixes": [
+  "fixes": [    
+    {
+      "name": "tempfilesfull",
+      "fixtype": 1,
+      "fix": "Essential failed to create a TEMP file. Try deleting the contents of the C:\WINDOWS\TEMP\ folder and try again.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.nio.file.AccessDeniedException: C:\WINDOWS\TEMP\"
+        }
+      ]
+    },
     {
       "name": "ctparticles",
       "fixtype": 1,
