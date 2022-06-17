@@ -1017,7 +1017,7 @@
       ]
     },
     {
-      "fix": "HyAddons is no longer supported by its developer as he has moved on to develop ShadyAddons. Additionally, during HyAddons' own lifetime, its features often overlapped with those of larger mods such as Skytils. Consider removing it from your mods folder.",
+      "fix": "HyAddons is no longer supported by its developer as he has moved on to develop [X Y Z]. Additionally, during HyAddons' own lifetime, its features often overlapped with those of larger mods such as Skytils. Consider removing it from your mods folder.",
       "causes": [
         {
           "method": "contains",
