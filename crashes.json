@@ -1008,6 +1008,24 @@
       ]
     },
     {
+      "fix": "SkyblockReinvented is no longer supported by its developer. Additionally, during SRE's own lifetime, it used a lot of code from other Skyblock mods. Consider removing it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "sre"
+        }
+      ]
+    },
+    {
+      "fix": "HyAddons is no longer supported by its developer as he has moved on to develop ShadyAddons. Additionally, during HyAddons' own lifetime, its features often overlapped with those of larger mods such as Skytils. Consider removing it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "hyaddons"
+        }
+      ]
+    },
+    {
       "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
@@ -1184,12 +1202,22 @@
       ]
     },
     {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (Cheeto)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "cf4m"
+        }
+      ]
+    },
+    {
       "fixtype": 1,
       "fix": "Looks like an issue with Synthesis, get support at https://discord.gg/vAUuKSwbp6",
       "causes": [
         {
           "method": "contains",
-          "value": "at com.luna.synthesis.features.cleanup.LoreCleanup.onItemTooltip(LoreCleanup.java:95)"
+          "value": "at com.luna.synthesis.features.cleanup.LoreCleanup.onItemTooltip"
         }
       ]
     },
