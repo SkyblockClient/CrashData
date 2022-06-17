@@ -1331,6 +1331,17 @@
       ]
     },
     {
+      "name": "soulwaypointrefresh",
+      "fixtype": 1,
+      "fix": "NotEnoughUpdates' Fairy Soul waypoints has errored.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete collected_fairy_souls.json",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscfeatures.FairySouls.refreshMissingSoulInfo"
+        }
+      ]
+    },
+    {
       "fixtype": 1,
       "fix": "SkyblockAddons ran into an error while trying to render Entity Outlines, probably caused by your GPU.\n1. Try updating your graphics drivers.",
       "causes": [
