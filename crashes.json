@@ -634,7 +634,7 @@
     {
       "name": "sk1eroam",
       "fixtype": 1,
-      "fix": "Sk1er's Old Animations is old.\n1. Get help in <https://discord.gg/d4KFR9H>",
+      "fix": "Sk1er's Old Animations is old.\n1. Get help in <https://discord.gg/sk1er>",
       "causes": [
         {
           "method": "contains",
@@ -1347,4 +1347,15 @@
     }
   ],
   "default_fix_type": 2
+  },
+  {
+      "name": "soulwaypoint",
+      "fixtype": 1,
+      "fix": "NotEnoughUpdates' Fairy Soul waypoints has errored.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete collected_fairy_souls.json",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscfeatures.FairySouls.getFoundSoulsForProfile"
+        }
+      ]
 }
