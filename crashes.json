@@ -14,7 +14,7 @@
     {
       "name": "tempfilesfull",
       "fixtype": 1,
-      "fix": "Essential failed to create a TEMP file. Try deleting the contents of the %pathindicator% folder and try again.",
+      "fix": "Essential failed to create a TEMP file. Try deleting the contents of the %pathindicator%C:/WINDOWS/TEMP%pathindicator% folder and try again.",
       "causes": [
         {
           "method": "contains",
