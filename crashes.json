@@ -3,7 +3,7 @@
     {
       "name": "-805306369",
       "fixtype": 1,
-      "fix": "Try disabling the \"discord rich presence\" aka \"rpc\" aka \"discord status\" settings in /dg, /sba and /scc",
+      "fix": "Try disabling the \"Discord Rich Presence\" aka \"RPC\" aka \"Discord Status\" settings in `/dg`, `/sba` and `/scc`.",
       "causes": [
         {
           "method": "contains",
@@ -14,7 +14,7 @@
     {
       "name": "tempfilesfull",
       "fixtype": 1,
-      "fix": "Essential failed to create a TEMP file. Try deleting the contents of the C:/WINDOWS/TEMP folder and try again.",
+      "fix": "Essential failed to create a TEMP file. Try deleting the contents of the %pathindicator%C:/WINDOWS/TEMP%pathindicator% folder and try again.",
       "causes": [
         {
           "method": "contains",
@@ -25,7 +25,7 @@
     {
       "name": "ctparticles",
       "fixtype": 1,
-      "fix": "The ChatTriggers module \"ToggleParticles\" seems to be causing issues.\n1. Navigate to %pathindicator%%profileroot%/config/ChatTriggers/modules%pathindicator%\n2. Delete ToggleParticles\n3. Reload the Game or your ChatTriggers modules",
+      "fix": "The ChatTriggers module \"ToggleParticles\" seems to be causing issues.\n1. Navigate to %pathindicator%%profileroot%/config/ChatTriggers/modules%pathindicator%\n2. Delete ToggleParticles\n3. Reload the Game or your ChatTriggers modules.",
       "causes": [
         {
           "method": "contains",
@@ -89,7 +89,7 @@
     {
       "name": "null",
       "fixtype": 3,
-      "fix": "To fix the problem you need to go to this link: https://account.xbox.com/settings\n\nThat will lead you to xbox account settings, and since new Minecraft accounts run with Microsoft, both platforms are technically linked together.\n\nHere is what you need to do:\n\nGo to https://account.xbox.com/settings\n\nIt will probably tell you to log into Microsoft so log in\n\n(if it doesn't say it and directs you to the website, make sure you're signed in)\n\n3. If you don't have an Xbox account, it will ask you to make one, so make any account.\n\nThat will direct you to the website\n\n3. If you scroll down, under your username and Avatar it should say \"Xbox one/windows 10 online safety\" click on that\n\n4. Scroll down until you see \"You can join multiplayer games\" allow or block,\n\nallow this\n\nRelaunch Minecraft and you should be able to join any multiplayer server.",
+      "fix": "To fix the problem:\n1. Go to <https://account.xbox.com/en-us/settings>\n2. Navigate to the `Xbox One/Windows 10 Online Safety` tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it.\n3. From there, they should be able to enable multiplayer for your account.\n4. Relaunch Minecraft and you should be able to join any multiplayer server.",
       "causes": [
         {
           "method": "contains",
@@ -119,7 +119,7 @@
     },
     {
       "fixtype": 0,
-      "fix": "You're using an old version of Forge (1902).\n1. Update Forge <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
+      "fix": "You're using an old version of Forge (1902).\nUpdate Forge: <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
       "causes": [
         {
           "method": "contains",
@@ -129,7 +129,7 @@
     },
     {
       "fixtype": 0,
-      "fix": "You're using an old version of Forge (1722).\n1. Update Forge <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
+      "fix": "You're using an old version of Forge (1722).\nUpdate Forge: <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
       "causes": [
         {
           "method": "contains",
@@ -149,7 +149,7 @@
     },
     {
       "fixtype": 0,
-      "fix": "You're using Feather Client. (Consider not? It's okay to give it up.)",
+      "fix": "You're using Feather Client. Consider not? It's okay to give it up.",
       "causes": [
         {
           "method": "contains",
@@ -159,7 +159,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Looks like you have a corrupted forge installation.\n1. Reinstall Forge <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
+      "fix": "Looks like you have a corrupted Forge installation.\nReinstall Forge <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
       "causes": [
         {
           "method": "contains",
@@ -183,7 +183,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The cache from the SkyclientCosmetics mod seems to be corrupt.\n1. Navigate to %pathindicator%%profileroot%/SkyclientCosmetics/%pathindicator%\n2. Remove Cache.json",
+      "fix": "The cache from the SkyclientCosmetics mod seems to be corrupt.\n1. Navigate to %pathindicator%%profileroot%/SkyclientCosmetics/%pathindicator%\n2. Remove cache.json",
       "causes": [
         {
           "method": "contains",
@@ -197,7 +197,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "There was a problem intializing Chatting.\nThis crash seems to be caused by ANY and ALL of the following mods: \nHytilities-Reborn, VanillaHUD, CrashPatch, Chatting\n1. Remove these mods in the meantime",
+      "fix": "There was a problem intializing Chatting.\nThis crash seems to be caused by ANY and ALL of the following mods: \nHytilities-Reborn, VanillaHUD, CrashPatch, and Chatting.\nRemove these mods in the meantime.",
       "causes": [
         {
           "method": "contains",
@@ -207,7 +207,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "There was a problem intializing Hytilities.\nThis crash seems to be caused by ANY and ALL of the following mods: \nHytilities-Reborn, VanillaHUD, CrashPatch, Chatting\n1. Remove these mods in the meantime",
+      "fix": "There was a problem intializing Hytilities.\nThis crash seems to be caused by ANY and ALL of the following mods: \nHytilities-Reborn, VanillaHUD, CrashPatch, and Chatting.\nRemove these mods in the meantime.",
       "causes": [
         {
           "method": "contains",
@@ -218,7 +218,7 @@
     {
       "name": "oldscc",
       "fixtype": 1,
-      "fix": "There was a bug in SkyclientCosmetics in an old version.\n1. Update SkyclientCosmetics",
+      "fix": "There was a bug in this outdated copy of SkyclientCosmetics.\nPlease update SkyclientCosmetics.",
       "causes": [
         {
           "method": "contains",
@@ -237,7 +237,7 @@
     {
       "name": "oldscc2",
       "fixtype": 1,
-      "fix": "SkyclientCosmetics had an error parsing JSON.\n1. Update SkyclientCosmetics",
+      "fix": "SkyclientCosmetics had an error parsing JSON.\nPlease update SkyclientCosmetics.",
       "causes": [
         {
           "method": "contains",
@@ -247,7 +247,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Something went wrong with NotEnoughUpdates' mining overlay.\n1. Removing CustomMainMenu appears to fix this crash.",
+      "fix": "Something went wrong with NotEnoughUpdates' mining overlay.\nRemoving CustomMainMenu appears to fix this crash.",
       "causes": [
         {
           "method": "contains",
@@ -262,7 +262,7 @@
     {
       "name": "miningoverlay",
       "fixtype": 1,
-      "fix": "Something went wrong with NotEnoughUpdates' mining overlay.\n1. Enable Player list info (example at <https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4>)\n2. If this does not fix your crash, disable NotEnoughUpdates' Dwarven overlay (by running /neu mining)",
+      "fix": "Something went wrong with NotEnoughUpdates' mining overlay.\n1. Enable Player list info (example at <https://cdn.discordapp.com/attachments/740707612474998826/907950067808337950/enable_player_list_info.mp4>)\n2. If this does not fix your crash, disable NotEnoughUpdates' Dwarven overlay (by running `/neu mining`)",
       "causes": [
         {
           "method": "contains",
@@ -273,7 +273,7 @@
     {
       "name": "inteldrivers",
       "fixtype": 1,
-      "fix": "Update your Intel Graphics Drivers",
+      "fix": "Update your Intel Graphics Drivers.",
       "causes": [
         {
           "method": "contains",
@@ -283,7 +283,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact support <https://discord.gg/essential>",
+      "fix": "Unable to download Essential, please check your internet connection.\nThis can be caused by VPN or something similar.\nIf the problem persists, please contact Essential's support at <https://discord.gg/essential>.",
       "causes": [
         {
           "method": "contains",
@@ -294,7 +294,7 @@
     {
       "name": "vanillablockchange",
       "fixtype": 1,
-      "fix": "This crash was caused by a Vanilla bug that's caused by changing a block with special states and cannot be fixed.",
+      "fix": "This crash was caused by a vanilla Minecraft bug that's caused by changing a block with special states and cannot be fixed.",
       "causes": [
         {
           "method": "contains",
@@ -317,7 +317,7 @@
     {
       "name": "medal",
       "fixtype": 1,
-      "fix": "Medal's drivers interfered.\n1. Remove the Medal.tv clipping software from your computer",
+      "fix": "Medal's drivers interfered.\nRemove the Medal.tv clipping software from your computer.",
       "causes": [
         {
           "method": "contains",
@@ -342,7 +342,7 @@
     {
       "name": "neustorage",
       "fixtype": 1,
-      "fix": "NotEnoughUpdates' custom storage errored.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete storageItems.json",
+      "fix": "NotEnoughUpdates' custom storage ran into an error.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete storageItems.json",
       "causes": [
         {
           "method": "contains",
@@ -363,7 +363,7 @@
     {
       "name": "godmode",
       "fixtype": 1,
-      "fix": "There was an error in Windows.\n1. Delete any God Mode shortcuts on your PC.",
+      "fix": "There was an error in Windows.\nDelete any God Mode shortcuts on your PC.",
       "causes": [
         {
           "method": "contains",
@@ -377,7 +377,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The Essential Backend is down and a file is failing to download.\n1. Please respectfully try again in 5 minutes",
+      "fix": "The Essential Backend is down and a file is failing to download.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -387,7 +387,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Essential appears to be experiencing issues while downloading itself.\n1. Please respectfully try again in 5 minutes",
+      "fix": "Essential appears to be experiencing issues while downloading itself.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -397,7 +397,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The Essential Backend is down and a file is failing to download.\n1. Please respectfully try again in 5 minutes",
+      "fix": "The Essential Backend is down and a file is failing to download.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -411,7 +411,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "The Essential Backend might be down for maintenance and Essential can't load some data.\n1. Please respectfully try again in 5 minutes",
+      "fix": "The Essential Backend might be down for maintenance and Essential can't load some data.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -429,7 +429,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Failed to connect to SkyclientCosmetics' API.\n1. Please respectfully try again in 5 minutes",
+      "fix": "Failed to connect to SkyclientCosmetics' API.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -439,7 +439,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Sk1er API appears to be down.\n1. Please respectfully try again in 5 minutes",
+      "fix": "Sk1er API appears to be down.\nWith all due respect, please try again in five minutes.",
       "causes": [
         {
           "method": "contains",
@@ -450,7 +450,7 @@
     {
       "name": "essentialonboarding",
       "fixtype": 1,
-      "fix": "There was a bug in Essential in an old version.\n1. Navigate to %pathindicator%%profileroot%/essential/%pathindicator%\n2. Delete onboarding.json",
+      "fix": "There was a bug in an outdated copy of Essential.\n1. Navigate to %pathindicator%%profileroot%/essential/%pathindicator%\n2. Delete onboarding.json",
       "causes": [
         {
           "method": "contains",
@@ -465,7 +465,7 @@
     {
       "name": "oldpatcher",
       "fixtype": 1,
-      "fix": "NotEnoughUpdates is conflicting with an old version of Patcher.\n1. Update patcher to 1.6+",
+      "fix": "NotEnoughUpdates is conflicting with an old version of Patcher.\nUpdate Patcher to the latest version.",
       "causes": [
         {
           "method": "contains",
@@ -479,7 +479,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "One or more of your mods has not been reobfuscated properly.\n1. Ask the developer of the mod to fix this issue.\n2. Remove the mod in the meantime",
+      "fix": "One or more of your mods has not been reobfuscated properly.\n1. Ask the developer of the mod to fix this issue.\n2. Remove the mod in the meantime.",
       "causes": [
         {
           "method": "contains",
@@ -490,7 +490,7 @@
     {
       "name": "ctm",
       "fixtype": 1,
-      "fix": "Optifine's connected textures had an error.\n- Update Patcher to the latest version (Recommended)\n- Alternatively, change your connected textures to fast. (Options > Video Settings > Quality > Connected Textures).",
+      "fix": "Optifine's connected textures had an error. You can do one or both of the following:\n- Update Patcher to the latest version\n- Set your `Connected Textures` mode to `Fast`. (`Options` > `Video Settings` > `Quality` > `Connected Textures`).",
       "causes": [
         {
           "method": "contains",
@@ -501,7 +501,7 @@
     {
       "name": "debug",
       "fixtype": 1,
-      "fix": "YOU LITERALLY INTENTIONALLY CRASHED THE GAME\n. %gameroot% %profileroot% Don't hold F3+C",
+      "fix": "YOU LITERALLY INTENTIONALLY CRASHED THE GAME.\n %gameroot% %profileroot% Don't hold F3+C",
       "causes": [
         {
           "method": "contains",
@@ -511,7 +511,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "XanderLib encountered an issue whilst installing.\n1. Try to update mods that use it. (e.g. EvergreenHUD)",
+      "fix": "XanderLib encountered an issue whilst installing.\nTry to update mods that use it, such as EvergreenHUD.",
       "causes": [
         {
           "method": "contains",
@@ -522,7 +522,7 @@
     {
       "name": "dsmmusic",
       "fixtype": 1,
-      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to %pathindicator%%profileroot%/config%pathindicator%\n2. Delete dsmmusic",
+      "fix": "Danker's Skyblock Mod threw an error.\n1. Navigate to %pathindicator%%profileroot%/config%pathindicator%\n2. Delete the `dsmmusic` folder.",
       "causes": [
         {
           "method": "contains",
@@ -533,7 +533,7 @@
     {
       "name": "oldpc",
       "fixtype": 1,
-      "fix": "Your GPU appears to be too old for some rendering options in Minecraft.\n1. Upgrade your PC. (No seriously, that's the only way)",
+      "fix": "Your GPU appears to be too old for some rendering options in Minecraft.\nUpgrade your PC.\n\nNo seriously, that's the only solution.",
       "causes": [
         {
           "method": "contains",
@@ -543,7 +543,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "While Essential was trying to render text, it ran into an error.\n1. Get support on Essential's discord server <https://discord.gg/essential>",
+      "fix": "While Essential was trying to render text, it ran into an error.\nGet support on Essential's Discord server: <https://discord.gg/essential>",
       "causes": [
         {
           "method": "contains",
@@ -554,7 +554,7 @@
     {
       "name": "debugtags",
       "fixtype": 1,
-      "fix": "While SkyclientCosmetics was rendering a name, an error was encountered.\n1. Don't use \"Debug Display Tags\" in SkyclientCosmetics settings (It's a debug feature for a reason)",
+      "fix": "While SkyclientCosmetics was rendering a name, an error was encountered.\nDon't use \"Debug Display Tags\" in SkyclientCosmetics settings—it's a debug feature for a reason.",
       "causes": [
         {
           "method": "contains",
@@ -564,7 +564,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "A mod is looking for an old shared library.\n1. Navigate to %pathindicator%%profileroot%%pathindicator%\n2. Remove the folder called modcore",
+      "fix": "A mod is looking for an old shared library.\n1. Navigate to %pathindicator%%profileroot%%pathindicator%\n2. Remove the folder called `modcore`",
       "causes": [
         {
           "method": "contains",
@@ -574,7 +574,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Optifine's GUI threw an exception.\n1. Remove all optifine jars in %pathindicator%%profileroot%/mods%pathindicator%\n2. Reinstall optifine",
+      "fix": "Optifine's GUI threw an exception.\n1. Remove all OptiFine jars in %pathindicator%%profileroot%/mods%pathindicator%\n2. Reinstall OptiFine",
       "causes": [
         {
           "method": "contains",
@@ -584,7 +584,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Essential is not compatible with OpenJ9.\n1. Remove OpenJ9.",
+      "fix": "Essential is not compatible with OpenJ9.\nRemove OpenJ9.",
       "causes": [
         {
           "method": "contains",
@@ -594,7 +594,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Cowlections is causing the issue.\n1. Remove the mod for now and get support <https://discord.gg/cowshed>",
+      "fix": "Cowlections is causing the issue.\nRemove the mod for now and get support at <https://discord.gg/cowshed>.",
       "causes": [
         {
           "method": "contains",
@@ -604,7 +604,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "EvergreenHUD appears to be outdated.\n1. Update at <https://modrinth.com/mod/evergreenhud>",
+      "fix": "EvergreenHUD appears to be outdated.\nUpdate it at <https://modrinth.com/mod/evergreenhud>.",
       "causes": [
         {
           "method": "contains",
@@ -615,7 +615,7 @@
     {
       "name": "owo",
       "fixtype": 1,
-      "fix": "This looks like the SBA OwO language crash.\n1. Join their discord for more info <https://discord.gg/biscuit>",
+      "fix": "This looks like the SBA OwO language crash.\nPlease change your SBA language to a more conventional language.",
       "causes": [
         {
           "method": "contains",
@@ -634,7 +634,7 @@
     {
       "name": "sk1eroam",
       "fixtype": 1,
-      "fix": "Sk1er's Old Animations is old.\n1. Get help in <https://discord.gg/sk1er>",
+      "fix": "Sk1er's Old Animations is outdated.\nGet help in <https://discord.gg/sk1er>.",
       "causes": [
         {
           "method": "contains",
@@ -645,7 +645,7 @@
     {
       "name": "wyvtilsname",
       "fixtype": 1,
-      "fix": "Wyvilities messed up name highlighting.\n1. Delete wyvtils and replace it with mods from <https://github.com/W-OVERFLOW/Wyvtils/releases>",
+      "fix": "Wyvilities is no longer supported.\nReplace it with REDACTION: <https://github.com/W-OVERFLOW/REDACTION/releases>",
       "causes": [
         {
           "method": "contains",
@@ -656,7 +656,7 @@
     {
       "name": "yasm",
       "fixtype": 1,
-      "fix": "YASM caused a crash.\n1. Delete Yet Another Skyblock Mod",
+      "fix": "\"Yet Another Skyblock Mod\" caused a crash.\nDelete it, as it's no longer supported by its developer.",
       "causes": [
         {
           "method": "contains",
@@ -671,7 +671,7 @@
     {
       "name": "dgload",
       "fixtype": 1,
-      "fix": "DungeonsGuide couldn't load.\n1. Attempt to get support at <https://discord.gg/dg>\n2. If you can't get it to work, remove it.",
+      "fix": "DungeonsGuide couldn't load.\n1. Attempt to get support at <https://discord.gg/dg>.\n2. If you can't get it to work, remove it.",
       "causes": [
         {
           "method": "contains",
@@ -681,7 +681,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Essential.\n1. Contact Essential's support <https://discord.gg/essential>",
+      "fix": "Issue with Essential.\nGo to Essential's Discord server for support: <https://discord.gg/essential>",
       "causes": [
         {
           "method": "contains",
@@ -692,7 +692,7 @@
     {
       "name": "doublepatcher",
       "fixtype": 1,
-      "fix": "Looks like you have two patcher mods installed.\n1. Please remove the old one.",
+      "fix": "Looks like you have installed two copies of Patcher.\nPlease remove the outdated one.",
       "causes": [
         {
           "method": "contains",
@@ -703,7 +703,7 @@
     {
       "name": "javaprocess",
       "fixtype": 1,
-      "fix": "This is caused by a random Java process being there when it shouldn't.\n1. Restart your computer, or use task manager to close it.",
+      "fix": "This is caused by a random Java process being there when it shouldn't.\nRestart your computer, or use Task Manager (if on Windows)/Activity Monitor (if on macOS) to close the process.",
       "causes": [
         {
           "method": "contains",
@@ -714,7 +714,7 @@
     {
       "name": "extracted",
       "fixtype": 1,
-      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod.\n1. Delete the extracted mod.\n2. Install the original jar.",
+      "fix": "This crash was likely caused by extracted mods. You will likely never need to extract a mod.\n1. Delete the extracted mod.\n2. Install the original `jar`.",
       "causes": [
         {
           "method": "contains",
@@ -725,7 +725,7 @@
     {
       "name": "outofmem",
       "fixtype": 1,
-      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers for what `reasonable` is.).",
+      "fix": "You are probably running out of memory (or something else).\n1. Allocate a reasonable amount of RAM to Minecraft (ask in support servers for what \"reasonable\" is—you should expect anything between 2 to 4 GB).",
       "causes": [
         {
           "method": "contains",
@@ -837,7 +837,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "This is a regex test and shouldn't normally appear.",
+      "fix": "This is a regex test and shouldn't normally appear. Ping SkyClient staff if you read this.",
       "causes": [
         {
           "method": "regex",
@@ -847,7 +847,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the jar file to your mods folder %pathindicator%%profileroot%/mods/%pathindicator%",
+      "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the `jar` file to your mods folder %pathindicator%%profileroot%/mods/%pathindicator%",
       "causes": [
         {
           "method": "contains",
@@ -928,7 +928,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Oranges Simple Mods might break things as they are poorly made, bloated, and break optifine features.",
+      "fix": "Oranges Simple Mods might break things as they are poorly made, bloated, and break OptiFine's features.",
       "causes": [
         {
           "method": "contains",
@@ -949,7 +949,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "One of your mods tried to render something incorrectly.\n1. Try to update your mods.",
+      "fix": "One of your mods tried to render something incorrectly.\nTry to update your mods.",
       "causes": [
         {
           "method": "contains",
@@ -959,7 +959,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Your authentication timed out.\n1. Log out and back in again in the launcher.",
+      "fix": "Your authentication timed out.\nLog out and back in again in the launcher.",
       "causes": [
         {
           "method": "contains",
@@ -1322,7 +1322,7 @@
     {
       "name": "soulwaypoint",
       "fixtype": 1,
-      "fix": "NotEnoughUpdates' Fairy Soul waypoints has errored.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete collected_fairy_souls.json",
+      "fix": "NotEnoughUpdates' Fairy Soul waypoints has ran into an error.\n1. Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\n2. Delete collected_fairy_souls.json",
       "causes": [
         {
           "method": "contains",
