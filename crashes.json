@@ -1764,7 +1764,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Skytils. Make sure it's up to date (preferably v1.2.6).",
+      "fix": "Issue with Skytils. Make sure it's up to date (preferably v1.2.5).",
       "causes": [
         {
           "method": "contains",
