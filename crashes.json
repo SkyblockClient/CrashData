@@ -888,12 +888,18 @@
     },
     {
       "fixtype": 1,
-      "fix": "Cheaters get banned. Nice Skyclient name ripoff.",
+      "fix": "Cheaters get banned. Nice SkyClient name ripoff.",
       "causes": [
         {
           "method": "contains",
           "value": "sbclient"
-        },
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. Nice SkyClient name ripoff.",
+      "causes": [
         {
           "method": "contains",
           "value": "skyblockclient."
