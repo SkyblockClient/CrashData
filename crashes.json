@@ -1344,6 +1344,24 @@
       ]
     },
     {
+      "fix": "ZealotCounter found. Use SBA's Zealot trackers instead (`-mod sba`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "symt.ZealotCounter"
+        }
+      ]
+    },
+    {
+      "fix": "SkyblockZ (the mod, not the server) was found. `-mods`, `-mods`, `-mods`, dang it!",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "rahulbier.skyblockz"
+        }
+      ]
+    },
+    {
       "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
