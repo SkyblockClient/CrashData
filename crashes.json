@@ -1326,6 +1326,24 @@
       ]
     },
     {
+      "fix": "\"BetterSkyblockMod\" was found. It has extensive overlap with many features already present in `-mods`, including Skytils, NotEnoughUpdates, and Chatting.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "darthvader.dbsm."
+        }
+      ]
+    },
+    {
+      "fix": "\"SkyblockChatFilter\" has been detected. Remove it and set Chatting's \"Spam Blocker\" threshold to 95 instead (`-mod chatting`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "darthvader.dbsm."
+        }
+      ]
+    },
+    {
       "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
