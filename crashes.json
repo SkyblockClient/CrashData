@@ -1362,6 +1362,25 @@
       ]
     },
     {
+      "fix": "ScamProtect found. The developer of this mod has requested all users to remove it from their mods folders. No known replacement is currently available within SkyClient's mod collection at this time.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "antirix.scamprotect"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA (because both mods were made by Biscuit) No, Erymanthus will not send you the fixed version.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at codes.biscuit.tommyhud.config.ConfigManager.loadValues(ConfigManager.java:50)"
+        }
+      ]
+    },
+    {
       "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
