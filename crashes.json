@@ -1372,7 +1372,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA (because both mods were made by Biscuit) No, Erymanthus will not send you the fixed version.",
+      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA (because both mods were made by Biscuit). No, Erymanthus will not send you the fixed version.",
       "causes": [
         {
           "method": "contains",
