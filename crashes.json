@@ -803,6 +803,10 @@
         {
           "method": "contains",
           "value": "sbclient"
+        },
+        {
+          "method": "contains",
+          "value": "skyblockclient."
         }
       ]
     },
@@ -817,6 +821,26 @@
       ]
     },
     {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (RoseGoldAddons)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "rosegoldaddons"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (Nether-Wart-Script)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "wartscript"
+        }
+      ]
+    },
+    {
       "fix": "Cheaters get banned. Yes, HitDelayFix is a cheat.",
       "causes": [
         {
@@ -827,7 +851,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Chat triggers crash. Try removing the modules you have installed and seeing if it works.",
+      "fix": "ChatTriggers crash. Try removing the modules you have installed and seeing if it works.",
       "causes": [
         {
           "method": "contains",
@@ -902,7 +926,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "java.lang.NoClassDefFoundError: net/minecraft/client/renderer/entity/layers/LayerCustomHead"
+          "value": "skyblockcatia"
         }
       ]
     },
@@ -1026,6 +1050,186 @@
       ]
     },
     {
+      "fix": "SkyblockStats was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "SkyblockStats"
+        }
+      ]
+    },
+    {
+      "fix": "SkyblockStatistics was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "skyblockstatistics"
+        }
+      ]
+    },
+    {
+      "fix": "APIViewer seems to be in your mods folder. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "apiviewer"
+        }
+      ]
+    },
+    {
+      "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. Use Skytils' dupe checker instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "crystalhollowsdupechecker"
+        }
+      ]
+    },
+    {
+      "fix": "SkyQoL is no longer supported by its developer. Check other Skyblock mods instead: `-mods`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "nat3z.skyqol"
+        }
+      ]
+    },
+    {
+      "fix": "SkyTweaks was detected. Many of its features should be found in other Skyblock mods: `-mods`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "nat3z.skytweaks"
+        }
+      ]
+    },
+    {
+      "fix": "PetInfo is no longer up to date with the state of Hypixel pets today (think Level 200 Golden Dragon, Gabagool pets, etc). Please use the Pet Overlay from NotEnoughUpdates instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "petinfo"
+        }
+      ]
+    },
+    {
+      "fix": "BackpackPreviews was detected. Check out `-mod sba` for a more reliable backpack preview mod.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "backpackpreviews"
+        }
+      ]
+    },
+    {
+      "fix": "Jerry (the mod) was found. Check other Skyblock mods instead, as it is no longer supported by its developer: `-mods`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": ".jerry"
+        }
+      ]
+    },
+    {
+      "fix": "You seem to be using BytesSkyblockUtils. Check out other Skyblock mods instead: `-mods`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "bytesskyblockutils"
+        }
+      ]
+    },
+    {
+      "fix": "Haizor's Hypixel Fishing Log is out of date. Check out `-mod skytils` or `-mod sba` for more reliable fishing logs.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "haizor.hypixelfishinglog"
+        }
+      ]
+    },
+    {
+      "fix": "Brite was found. Consider using BazaarNotifier instead, as Brite is dated: `-mod bazaarnotifier`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "tryrite.brite"
+        }
+      ]
+    },
+    {
+      "fix": "AwayFromAuction discovered. Consider using NotEnoughUpdate's `/neuah` instead (`-mod neu`) or buy Booster Cookies from the Bazaar in-game.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "awayfromauction"
+        }
+      ]
+    },
+    {
+      "fix": "Salvage Assister is in your mods folder. Consider using the equivalent feature from Skytils (`-mod skytils`) or Danker's Skyblock Mod (`-mod dsm`) instead.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "salvageassister"
+        }
+      ]
+    },
+    {
+      "fix": "FarmingUtils found. Consider using the equivalent feature `Skill Overlays —> Farming` from NotEnoughUpdates (`-mod neu`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "farmingutils"
+        }
+      ]
+    },
+    {
+      "fix": "BedTime was found. Consider using the equivalent feature `/neuah` from NotEnoughUpdates (`-mod neu`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "bedtime"
+        }
+      ]
+    },
+    {
+      "fix": "GoldenEnchant mod unearthed. Consider using the equivalent feature `/neuec` from NotEnoughUpdates (`-mod neu`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "me.GoldenEnchant"
+        }
+      ]
+    },
+    {
+      "fix": "timestampmod mod unearthed. Consider using equivalent features from Cowlection (`-mod cowlection`) and SkyblockAddons (`-mod sba`).",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "anna.timestamp"
+        }
+      ]
+    },
+    {
+      "fix": "reswitch detected. Use NEU's `Dwarven Mines Textures` feature instead, as all necessary Dwarven Mines block textures provided by your resource packs are already loaded on startup this way.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "resourceswitch"
+        }
+      ]
+    },
+    {
+      "fix": "\"near\" detected. On the fence about Skyclient, hm?",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "studio.dreamys."
+        }
+      ]
+    },
+    {
       "fix": "Schematica can sometimes cause your game to run out of memory, try removing it and see if it helps.",
       "causes": [
         {
@@ -1049,6 +1253,166 @@
         {
           "method": "contains",
           "value": "io.github.moulberry.notenoughupdates.commands.Commands$21$1.printStackTrace(Commands.java:727)"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (NotEnoughCoins)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "notenoughcoins"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (SkyHouse)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "skyhouse"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Aspect of the Flipper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "aotf"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Skyblock BIN Sniper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "binsnipe"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (CoflSky)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "torui.coflsky"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TheExoticsMod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "thom.tem"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TheFlipperMod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "thom.tfm"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (BetterNEC)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "betternec"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (SkyblockFlipper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "skyblockflipper"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (JerryLover)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "JerryLover"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (FlipperPlus)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "flipperplus"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (BS-Mod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "duck.BSMod"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (DizzyFlipper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "dizzyflipper"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (HyScalper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "rubby.hyscalper"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Money Making Maker MC Mod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "xgqd.moneymakingmaker"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TrollMod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "pennacap.hypixelflip"
         }
       ]
     },
@@ -1212,6 +1576,66 @@
       ]
     },
     {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (Fairy Soul ESP)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "fairysoulsesp"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (All-In-One Macro)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "aiomacro"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (AutoFish)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "autofish"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (YungAddons)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "YungAddons"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (Animated Clock Mod)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "me.SamzyDev"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (Macro Mod Modules)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "macromodmodules"
+        }
+      ]
+    },
+    {
       "fixtype": 1,
       "fix": "Looks like an issue with Synthesis, get support at https://discord.gg/vAUuKSwbp6",
       "causes": [
@@ -1244,7 +1668,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with skytils, make sure it's up to date.",
+      "fix": "Issue with Skytils. Make sure it's up to date (preferably v1.2.6).",
       "causes": [
         {
           "method": "contains",
