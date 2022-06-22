@@ -1779,7 +1779,7 @@
     {
       "name": "tommyhud",
       "fixtype": 1,
-      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA (the exact phrasing by Biscuit, who developed both mods, is `hmm yeah it almost looks like sba's default conflict is conflicting with tommyhud because i gave the file the same name in both mods?`). No, Erymanthus will not send you the fixed version.",
+      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA (the exact phrasing by Biscuit, who developed both mods, is `hmm yeah it almost looks like sba's default conflict is conflicting with tommyhud because i gave the file the same name in both mods?`). No, Erymanthus will not send you the fixed version—go update SBA instead: `-mods sba`",
       "causes": [
         {
           "method": "contains",
