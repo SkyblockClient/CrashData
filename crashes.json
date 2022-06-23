@@ -1297,20 +1297,11 @@
       ]
     },
     {
-      "fix": "\"BetterSkyblockMod\" was found. It has extensive overlap with many features already present in `-mods`, including Skytils, NotEnoughUpdates, and Chatting.",
+      "fix": "\"BetterSkyblockMod\" was found, which has features that other mods originally had, like Skytils, NotEnoughUpdates, and Chatting.",
       "causes": [
         {
           "method": "contains",
           "value": "darthvader.dbsm."
-        }
-      ]
-    },
-    {
-      "fix": "\"SkyblockChatFilter\" has been detected. Remove it and set Chatting's \"Spam Blocker\" threshold to 95 instead (`-mod chatting`).",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "taj_ny.skyblockchatfilter"
         }
       ]
     },
@@ -1739,7 +1730,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "RAT (Remote Access Trojan) found. Also, cheaters get banned. (Macro Mod Modules)",
+      "fix": "RAT (Remote Access Trojan) found. You have the mod Macro Mod Modules, which is malware and may steal personal info from your computer like passwords and session tokens. PLEASE REMOVE IT FROM YOUR MODS FOLDER, and go CHANGE YOUR PASSWORDS in order to stop others from logging in. Also, cheaters get banned. (Macro Mod Modules)",
       "causes": [
         {
           "method": "contains",
@@ -1791,7 +1782,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Skytils. Make sure it's up to date.",
+      "fix": "Issue with Skytils. Make sure it's on a stable version.",
       "causes": [
         {
           "method": "contains",
