@@ -1324,7 +1324,7 @@
       ]
     },
     {
-      "fix": "SkyblockZ (the mod, not the server) was found. `-mods`, `-mods`, `-mods`. How many times do we need to teach you this lesson?",
+      "fix": "SkyblockZ (the mod, not the server) was found. Please run `-mods`.",
       "causes": [
         {
           "method": "contains",
@@ -1739,7 +1739,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "🚨🚨🚨🚨🚨🚨***__EMERGENCY DETECTED: REMOVE THIS MOD FROM YOUR MODS FOLDER AND GO CHANGE YOUR PASSWORD RIGHT NOW—ASK NO FURTHER QUESTIONS, JUST GO DO IT RIGHT THIS INSTANT. THIS IS FOR THE SAFETY OF YOUR MINECRAFT ACCOUNT.__***🚨🚨🚨🚨🚨🚨 Also, cheaters get banned. (Macro Mod Modules)",
+      "fix": "RAT (Remote Access Trojan) found. Also, cheaters get banned. (Macro Mod Modules)",
       "causes": [
         {
           "method": "contains",
@@ -1791,7 +1791,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Skytils. Make sure it's up to date (preferably whichever version SkyClient staff want you to be on).",
+      "fix": "Issue with Skytils. Make sure it's up to date.",
       "causes": [
         {
           "method": "contains",
