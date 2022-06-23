@@ -189,56 +189,6 @@
     },
     {
       "fixtype": 0,
-      "fix": "You are on Skytils 1.2.5.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Skytils-1.2.5"
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
-      "fix": "You are on Skytils 1.2.6.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Skytils-1.2.6"
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
-      "fix": "You are on Skytils 1.3.0-pre1.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Skytils-1.3.0-pre1."
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
-      "fix": "You are on Skytils 1.3.0-pre2.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Skytils-1.3.0-pre2."
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
-      "fix": "You are on Skytils 1.3.0-pre3.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Skytils-1.3.0-pre3."
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
       "fix": "You're using Feather Client. Consider not? It's okay to give it up.",
       "causes": [
         {
@@ -703,7 +653,7 @@
       ]
     },
     {
-      "name": "owo",
+      "name": "sbaowo",
       "fixtype": 1,
       "fix": "This looks like the SBA OwO language crash.\nPlease change your SBA language to a more conventional language.",
       "causes": [
@@ -718,6 +668,27 @@
         {
           "method": "contains",
           "value": "Screen name: net.minecraft.client.gui.inventory.GuiChest"
+        }
+      ]
+    },
+    {
+      "name": "owo",
+      "fix": "To find the solution for SBA's OwO crash, see `-crash sbaowo`. Otherwise, you may be thinking of Kerbybit's MinecwaftOwO, which corresponds to `-crash owomod`.",
+      "causes": [
+        {
+          "method": "regex",
+          "value": "This is a regex test and shouldn't be visible within the Discord server\\."
+        }
+      ]
+    },
+    {
+      "name": "owomod",
+      "fixtype": 1,
+      "fix": "Kerbybit's MinecwaftOwO was detected. Remove the mod to see if your issue persists.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "kerbybit.minecwaft"
         }
       ]
     },
@@ -1353,7 +1324,7 @@
       ]
     },
     {
-      "fix": "SkyblockZ (the mod, not the server) was found. `-mods`, `-mods`, `-mods`, dang it!",
+      "fix": "SkyblockZ (the mod, not the server) was found. `-mods`, `-mods`, `-mods`. How many times do we need to teach you this lesson?",
       "causes": [
         {
           "method": "contains",
@@ -1399,7 +1370,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (NotEnoughCoins)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (NotEnoughCoins)",
       "causes": [
         {
           "method": "contains",
@@ -1409,7 +1380,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (SkyHouse)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (SkyHouse)",
       "causes": [
         {
           "method": "contains",
@@ -1419,7 +1390,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Aspect of the Flipper)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (Aspect of the Flipper)",
       "causes": [
         {
           "method": "contains",
@@ -1429,7 +1400,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Skyblock BIN Sniper)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (Skyblock BIN Sniper)",
       "causes": [
         {
           "method": "contains",
@@ -1439,7 +1410,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (CoflSky)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (CoflSky)",
       "causes": [
         {
           "method": "contains",
@@ -1449,7 +1420,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TheExoticsMod)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TheExoticsMod)",
       "causes": [
         {
           "method": "contains",
@@ -1459,7 +1430,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TheFlipperMod)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TheFlipperMod)",
       "causes": [
         {
           "method": "contains",
@@ -1469,7 +1440,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (BetterNEC)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (BetterNEC)",
       "causes": [
         {
           "method": "contains",
@@ -1479,7 +1450,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (SkyblockFlipper)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (SkyblockFlipper)",
       "causes": [
         {
           "method": "contains",
@@ -1489,7 +1460,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (JerryLover)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (JerryLover)",
       "causes": [
         {
           "method": "contains",
@@ -1499,7 +1470,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (FlipperPlus)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (FlipperPlus)",
       "causes": [
         {
           "method": "contains",
@@ -1509,7 +1480,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (BS-Mod)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (BS-Mod)",
       "causes": [
         {
           "method": "contains",
@@ -1519,7 +1490,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (DizzyFlipper)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (DizzyFlipper)",
       "causes": [
         {
           "method": "contains",
@@ -1529,7 +1500,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (HyScalper)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (HyScalper)",
       "causes": [
         {
           "method": "contains",
@@ -1539,7 +1510,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (Money Making Maker MC Mod)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (Money Making Maker MC Mod)",
       "causes": [
         {
           "method": "contains",
@@ -1549,7 +1520,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Crashes caused by auction house flipping mods will not be investigated further. (TrollMod)",
+      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TrollMod)",
       "causes": [
         {
           "method": "contains",
@@ -1768,7 +1739,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Cheaters get banned. (Macro Mod Modules)",
+      "fix": "🚨🚨🚨🚨🚨🚨***__EMERGENCY DETECTED: REMOVE THIS MOD FROM YOUR MODS FOLDER AND GO CHANGE YOUR PASSWORD RIGHT NOW—ASK NO FURTHER QUESTIONS, JUST GO DO IT RIGHT THIS INSTANT. THIS IS FOR THE SAFETY OF YOUR MINECRAFT ACCOUNT.__***🚨🚨🚨🚨🚨🚨 Also, cheaters get banned. (Macro Mod Modules)",
       "causes": [
         {
           "method": "contains",
@@ -1820,7 +1791,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Skytils. Make sure it's up to date (preferably v1.2.5).",
+      "fix": "Issue with Skytils. Make sure it's up to date (preferably whichever version SkyClient staff want you to be on).",
       "causes": [
         {
           "method": "contains",
