@@ -653,6 +653,16 @@
       ]
     },
     {
+      "fixtype": 1,
+      "fix": "ParticlesEnchanced caused an issue. Remove it and see if anything changes.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at dev.isxander.particlesenhanced"
+        }
+      ]
+    },
+    {
       "name": "sbaowo",
       "fixtype": 1,
       "fix": "This looks like the SBA OwO language crash.\nPlease change your SBA language to a more conventional language.",
