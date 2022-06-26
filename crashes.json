@@ -1163,7 +1163,7 @@
       ]
     },
     {
-      "fix": "SkyQoL is no longer supported by its developer. Check other Skyblock mods instead: `-mods`",
+      "fix": "SkyQoL is no longer supported by its developer. Please attempt to find alternatives.",
       "causes": [
         {
           "method": "contains",
@@ -1172,7 +1172,7 @@
       ]
     },
     {
-      "fix": "SkyTweaks was detected. Many of its features should be found in other Skyblock mods: `-mods`",
+      "fix": "SkyTweaks was detected. Many of its features can be found in other Skyblock mods.",
       "causes": [
         {
           "method": "contains",
@@ -1190,7 +1190,7 @@
       ]
     },
     {
-      "fix": "BackpackPreviews was detected. Check out `-mod sba` for a more reliable backpack preview mod.",
+      "fix": "BackpackPreviews was detected. Check out SkyblockAddons for a more reliable backpack preview mod.",
       "causes": [
         {
           "method": "contains",
@@ -1199,7 +1199,7 @@
       ]
     },
     {
-      "fix": "Jerry (the mod) was found. Check other Skyblock mods instead, as it is no longer supported by its developer: `-mods`",
+      "fix": "Jerry (the mod) was found. Check other Skyblock mods instead, as it is no longer supported by its developer.",
       "causes": [
         {
           "method": "contains",
@@ -1208,7 +1208,7 @@
       ]
     },
     {
-      "fix": "You seem to be using BytesSkyblockUtils. Check out other Skyblock mods instead: `-mods`",
+      "fix": "You seem to be using BytesSkyblockUtils. This mod is not recommended, and it is advised to use other skyblock mods.",
       "causes": [
         {
           "method": "contains",
@@ -1217,7 +1217,7 @@
       ]
     },
     {
-      "fix": "Haizor's Hypixel Fishing Log is out of date. Check out `-mod skytils` or `-mod sba` for more reliable fishing logs.",
+      "fix": "Haizor's Hypixel Fishing Log is out of date. Check out Skytils or SkyblockAddons for more reliable fishing logs.",
       "causes": [
         {
           "method": "contains",
@@ -1226,7 +1226,7 @@
       ]
     },
     {
-      "fix": "Brite was found. Consider using BazaarNotifier instead, as Brite is dated: `-mod bazaarnotifier`",
+      "fix": "Brite was found. Consider using BazaarNotifier instead, as Brite is dated.",
       "causes": [
         {
           "method": "contains",
@@ -1235,7 +1235,7 @@
       ]
     },
     {
-      "fix": "AwayFromAuction discovered. Consider using NotEnoughUpdate's `/neuah` instead (`-mod neu`) or buy Booster Cookies from the Bazaar in-game.",
+      "fix": "AwayFromAuction discovered. Consider using NotEnoughUpdate's `/neuah` instead or buy Booster Cookies from the Bazaar in-game.",
       "causes": [
         {
           "method": "contains",
@@ -1244,7 +1244,7 @@
       ]
     },
     {
-      "fix": "Salvage Assister is in your mods folder. Consider using the equivalent feature from Skytils (`-mod skytils`) or Danker's Skyblock Mod (`-mod dsm`) instead.",
+      "fix": "Salvage Assister is in your mods folder. Consider using the equivalent feature from Skytils or Danker's Skyblock Mod instead.",
       "causes": [
         {
           "method": "contains",
@@ -1253,7 +1253,7 @@
       ]
     },
     {
-      "fix": "FarmingUtils found. Consider using the equivalent feature `Skill Overlays —> Farming` from NotEnoughUpdates (`-mod neu`).",
+      "fix": "FarmingUtils found. Consider using the equivalent feature `Skill Overlays —> Farming` from NotEnoughUpdates.",
       "causes": [
         {
           "method": "contains",
@@ -1262,7 +1262,7 @@
       ]
     },
     {
-      "fix": "BedTime was found. Consider using the equivalent feature `/neuah` from NotEnoughUpdates (`-mod neu`).",
+      "fix": "BedTime was found. Consider using the equivalent feature `/neuah` from NotEnoughUpdates.",
       "causes": [
         {
           "method": "contains",
@@ -1271,7 +1271,7 @@
       ]
     },
     {
-      "fix": "GoldenEnchant mod unearthed. Consider using the equivalent feature `/neuec` from NotEnoughUpdates (`-mod neu`).",
+      "fix": "GoldenEnchant mod unearthed. Consider using the equivalent feature `/neuec` from NotEnoughUpdates.",
       "causes": [
         {
           "method": "contains",
@@ -1280,7 +1280,7 @@
       ]
     },
     {
-      "fix": "timestampmod mod unearthed. Consider using equivalent features from Cowlection (`-mod cowlection`) and SkyblockAddons (`-mod sba`).",
+      "fix": "timestampmod mod unearthed. Consider using equivalent features from Cowlection and SkyblockAddons.",
       "causes": [
         {
           "method": "contains",
@@ -1316,7 +1316,7 @@
       ]
     },
     {
-      "fix": "ZealotCounter found. Use SBA's Zealot trackers instead (`-mod sba`).",
+      "fix": "ZealotCounter found. Use SBA's Zealot trackers instead.",
       "causes": [
         {
           "method": "contains",
@@ -1325,7 +1325,7 @@
       ]
     },
     {
-      "fix": "SkyblockZ (the mod, not the server) was found. Please run `-mods`.",
+      "fix": "SkyblockZ (the mod, not the server) was found. Consider looking into alternatives.",
       "causes": [
         {
           "method": "contains",
@@ -1334,7 +1334,7 @@
       ]
     },
     {
-      "fix": "ScamProtect found. The developer of this mod has requested all users to remove it from their mods folders. No known replacement is currently available within SkyClient's mod collection at this time.",
+      "fix": "ScamProtect found. The developer of this mod has requested all users to remove it from their mods folders. No high quality replacement is currently known at this time..",
       "causes": [
         {
           "method": "contains",
