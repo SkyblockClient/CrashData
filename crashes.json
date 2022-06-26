@@ -687,7 +687,7 @@
       "causes": [
         {
           "method": "regex",
-          "value": "This is a regex test and shouldn't be visible within the Discord server\\."
+          "value": "this is a placeholder crash for the -crash command"
         }
       ]
     },
@@ -1127,6 +1127,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "SkyblockStats was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
       "causes": [
         {
@@ -1136,6 +1137,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "SkyblockStatistics was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
       "causes": [
         {
@@ -1145,6 +1147,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "APIViewer seems to be in your mods folder. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
       "causes": [
         {
@@ -1154,6 +1157,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. Use Skytils' dupe checker instead.",
       "causes": [
         {
@@ -1163,6 +1167,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "SkyQoL is no longer supported by its developer. Please attempt to find alternatives.",
       "causes": [
         {
@@ -1172,6 +1177,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "SkyTweaks was detected. Many of its features can be found in other Skyblock mods.",
       "causes": [
         {
@@ -1181,6 +1187,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "PetInfo is no longer up to date with the state of Hypixel pets today (think Level 200 Golden Dragon, Gabagool pets, etc). Please use the Pet Overlay from NotEnoughUpdates instead.",
       "causes": [
         {
@@ -1190,6 +1197,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "BackpackPreviews was detected. Check out SkyblockAddons for a more reliable backpack preview mod.",
       "causes": [
         {
@@ -1199,6 +1207,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "Jerry (the mod) was found. Check other Skyblock mods instead, as it is no longer supported by its developer.",
       "causes": [
         {
@@ -1208,6 +1217,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "You seem to be using BytesSkyblockUtils. This mod is not recommended, and it is advised to use other skyblock mods.",
       "causes": [
         {
@@ -1217,6 +1227,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "Haizor's Hypixel Fishing Log is out of date. Check out Skytils or SkyblockAddons for more reliable fishing logs.",
       "causes": [
         {
@@ -1226,6 +1237,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "Brite was found. Consider using BazaarNotifier instead, as Brite is dated.",
       "causes": [
         {
@@ -1235,6 +1247,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "AwayFromAuction discovered. Consider using NotEnoughUpdate's `/neuah` instead or buy Booster Cookies from the Bazaar in-game.",
       "causes": [
         {
@@ -1244,6 +1257,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "Salvage Assister is in your mods folder. Consider using the equivalent feature from Skytils or Danker's Skyblock Mod instead.",
       "causes": [
         {
@@ -1253,6 +1267,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "FarmingUtils found. Consider using the equivalent feature `Skill Overlays —> Farming` from NotEnoughUpdates.",
       "causes": [
         {
@@ -1262,6 +1277,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "BedTime was found. Consider using the equivalent feature `/neuah` from NotEnoughUpdates.",
       "causes": [
         {
@@ -1271,6 +1287,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "GoldenEnchant mod unearthed. Consider using the equivalent feature `/neuec` from NotEnoughUpdates.",
       "causes": [
         {
@@ -1280,6 +1297,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "timestampmod mod unearthed. Consider using equivalent features from Cowlection and SkyblockAddons.",
       "causes": [
         {
@@ -1289,6 +1307,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "reswitch detected. Use NEU's `Dwarven Mines Textures` feature instead, as all necessary Dwarven Mines block textures provided by your resource packs are already loaded on startup this way.",
       "causes": [
         {
@@ -1298,6 +1317,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "\"near\" detected. On the fence about Skyclient, hm?",
       "causes": [
         {
@@ -1307,6 +1327,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "\"BetterSkyblockMod\" was found, which has features that other mods originally had, like Skytils, NotEnoughUpdates, and Chatting.",
       "causes": [
         {
@@ -1316,6 +1337,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "ZealotCounter found. Use SBA's Zealot trackers instead.",
       "causes": [
         {
@@ -1325,6 +1347,7 @@
       ]
     },
     {
+      "fixtype": 2,
       "fix": "SkyblockZ (the mod, not the server) was found. Consider looking into alternatives.",
       "causes": [
         {
@@ -1334,7 +1357,8 @@
       ]
     },
     {
-      "fix": "ScamProtect found. The developer of this mod has requested all users to remove it from their mods folders. No high quality replacement is currently known at this time..",
+      "fixtype": 2,
+      "fix": "ScamProtect found. The developer of this mod has requested all users to remove it from their mods folders. No high quality replacement is currently known at this time",
       "causes": [
         {
           "method": "contains",
