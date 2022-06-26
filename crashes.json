@@ -189,7 +189,7 @@
     },
     {
       "fixtype": 0,
-      "fix": "You're using Feather Client. Consider not? It's okay to give it up.",
+      "fix": "Feather client is unsupported and any issues it causes need to be reported to Feather Staff.",
       "causes": [
         {
           "method": "contains",
@@ -938,7 +938,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "This is a regex test and shouldn't normally appear. Ping SkyClient staff if you read this.",
+      "fix": "This is a regex test and shouldn't normally appear. Ping staff if you read this.",
       "causes": [
         {
           "method": "regex",
@@ -1298,7 +1298,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "timestampmod mod unearthed. Consider using equivalent features from Cowlection and SkyblockAddons.",
+      "fix": "Timestampmod was found. Consider using equivalent features from Cowlection and SkyblockAddons.",
       "causes": [
         {
           "method": "contains",
@@ -1318,7 +1318,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "\"near\" detected. On the fence about Skyclient, hm?",
+      "fix": "\"near\" detected.",
       "causes": [
         {
           "method": "contains",
@@ -1775,7 +1775,7 @@
     {
       "name": "tommyhud",
       "fixtype": 1,
-      "fix": "TommyHUD caused this crash. Unless if you're Erymanthus, you definitely got the original version featured in TommyInnit's video, which crashes with some versions of SBA as the default config files of both mods once shared file names (the exact phrasing by Biscuit, who developed both mods, is \"hmm yeah it almost looks like sba's default conflict [sic] is conflicting with tommyhud because i gave the file the same name in both mods?\"). No, Erymanthus will not send you the fixed version—go update SBA instead.",
+      "fix": "TommyHUD caused this crash. You likely got the original version featured in TommyInnit's video, which crashes with some versions of SBA. Consider updating SBA or removing TommyHUD.",
       "causes": [
         {
           "method": "contains",
