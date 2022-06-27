@@ -1158,7 +1158,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. Use Skytils' dupe checker instead.",
+      "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. The developer of this mod recommends TheExoticsMod instead.",
       "causes": [
         {
           "method": "contains",
