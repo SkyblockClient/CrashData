@@ -1445,16 +1445,6 @@
     },
     {
       "fixtype": 2,
-      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TheExoticsMod)",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "thom.tem"
-        }
-      ]
-    },
-    {
-      "fixtype": 2,
       "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TheFlipperMod)",
       "causes": [
         {
