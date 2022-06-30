@@ -918,6 +918,26 @@
       ]
     },
     {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (FarmHelper)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": ".farmhelper"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Cheaters get banned. (SkyFunny)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": ".fsbm"
+        }
+      ]
+    },
+    {
       "fix": "Cheaters get banned. Yes, HitDelayFix is a cheat.",
       "causes": [
         {
@@ -1376,7 +1396,7 @@
       ]
     },
     {
-      "fix": "Error with the custom loading gif, This can sometimes be caused by bad video drivers, consider updating.",
+      "fix": "Error with the custom loading GIF. This can sometimes be caused by bad video drivers, so consider updating.",
       "causes": [
         {
           "method": "contains",
