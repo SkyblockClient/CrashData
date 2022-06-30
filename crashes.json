@@ -1318,11 +1318,11 @@
     },
     {
       "fixtype": 2,
-      "fix": "\"near\" detected.",
+      "fix": "RAT (Remote Access Trojan) found. You have a mod by someone under the pseudonym \"studio.dreamys\", most of which is malware and may steal personal info from your computer like passwords and session tokens. PLEASE REMOVE IT FROM YOUR MODS FOLDER, and go CHANGE YOUR PASSWORDS in order to stop others from logging in. Also, cheaters get banned. (\"studio.dreamys\")",
       "causes": [
         {
           "method": "contains",
-          "value": "studio.dreamys."
+          "value": "studio.dreamys"
         }
       ]
     },
