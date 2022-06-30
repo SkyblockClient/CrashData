@@ -1158,7 +1158,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. Use Skytils' dupe checker instead.",
+      "fix": "CrystalHollowsDupeChecker is no longer supported by its developer. The developer of this mod recommends TheExoticsMod instead.",
       "causes": [
         {
           "method": "contains",
@@ -1318,11 +1318,11 @@
     },
     {
       "fixtype": 2,
-      "fix": "\"near\" detected.",
+      "fix": "RAT (Remote Access Trojan) found. You have a mod by someone under the pseudonym \"studio.dreamys\", most of which is malware and may steal personal info from your computer like passwords and session tokens. PLEASE REMOVE IT FROM YOUR MODS FOLDER, and go CHANGE YOUR PASSWORDS in order to stop others from logging in. Also, cheaters get banned. (\"studio.dreamys\")",
       "causes": [
         {
           "method": "contains",
-          "value": "studio.dreamys."
+          "value": "studio.dreamys"
         }
       ]
     },
@@ -1440,16 +1440,6 @@
         {
           "method": "contains",
           "value": "torui.coflsky"
-        }
-      ]
-    },
-    {
-      "fixtype": 2,
-      "fix": "Auction flipping mods are unsupported and any issues they cause will not be investigated further. (TheExoticsMod)",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "thom.tem"
         }
       ]
     },
