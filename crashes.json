@@ -1610,6 +1610,16 @@
     },
     {
       "fixtype": 2,
+      "fix": "Cheaters get banned. (Oringo Client)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "oringo.oringoclient"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
       "fix": "Cheaters get banned. (liquidbounce)",
       "causes": [
         {
@@ -1719,6 +1729,16 @@
         {
           "method": "contains",
           "value": "cf4m"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Cheaters get banned. (Cheeto)",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "apfelmus"
         }
       ]
     },
