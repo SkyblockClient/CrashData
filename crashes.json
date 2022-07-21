@@ -26,7 +26,15 @@
       "causes": [
         {
           "method": "contains",
-          "value": "this is a placeholder crash for the -crash command"
+          "value": "Could not initialize class io.github.moulberry.notenoughupdates.profileviewer.GuiProfileViewer"
+        },
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.miscfeatures.PetInfoOverlay.updatePetLevels"
+        },
+        {
+          "method": "contains",
+          "value": "io.github.moulberry.notenoughupdates.listener.NEUEventListener.onTick"
         }
       ]
     },
