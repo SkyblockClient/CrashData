@@ -18,6 +18,21 @@
           "value": "at io.github.moulberry.notenoughupdates.miscfeatures.PetInfoOverlay.onTick"
         }
       ]
+    },    
+    {
+      "name": "guineurepo",
+      "fixtype": 1,
+      "fix": "Step 1: Download the repo at  - https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip\nStep 2: Extract the repo and copy its content - https://i.imgur.com/xsQkqum.png\nStep 3: Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\nStep 4: Create a repo folder if there are none.\nStep 5 : Paste the content you just previously copied\nStep 6 : The final results should look like this - https://i.imgur.com/jgFwsle.png",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: Could not initialize class io.github.moulberry.notenoughupdates.profileviewer.GuiProfileViewer"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.miscfeatures.PetInfoOverlay.updatePetLevels"
+        }
+      ]
     },
     {
       "name": "neurepo",
