@@ -1247,7 +1247,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": ".jerry"
+          "value": "pet.jerry"
         }
       ]
     },
