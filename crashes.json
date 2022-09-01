@@ -55,7 +55,7 @@
           "value": "at io.github.moulberry.notenoughupdates.miscfeatures.PetInfoOverlay.onTick"
         }
       ]
-    },    
+    },
     {
       "name": "guineurepo",
       "fixtype": 1,
@@ -1163,6 +1163,68 @@
       ]
     },
     {
+      "fixtype": 2,
+      "fix": "Consider using a different blockoverlay and removing your current one.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at me.aycy.blockoverlay.BlockOverlayRender.drawOverlay(BlockOverlayRender.java:65)"
+        },
+        {
+          "method": "contains",
+          "value": "at me.aycy.blockoverlay.BlockOverlayRender.onDrawBlockHighlight(BlockOverlayRender.java:33)"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Remove BazaarNotifier from your mods folder or get support at discord.gg/wjpJSVSwvD ",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at dev.meyi.bn.handlers.ChestTickHandler.updateBazaarOrders(ChestTickHandler.java:76)"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Try deleting the `screenshot-checksum-caches.json` file in `.minecraft/essential`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "gg.essential.lib.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Update to a stable version of EvergreenHUD `-mod evergreenhud`",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at dev.isxander.evergreenhud.ui.components.ElementDescriptionComponent$1.invoke(ElementDescriptionComponent.kt:66)"
+        },
+        {
+          "method": "contains",
+          "value": "dev.isxander.evergreenhud.ui.ElementDisplay"
+        }
+      ]
+    },
+    {
+      "fixtype": 2,
+      "fix": "Remove Skyclient Updater from your blocks folder",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: Could not initialize class gg.essential.config.EssentialConfig"
+        },
+        {
+          "method": "contains",
+          "value": "skyblockclientupdater"
+        }
+      ]
+    },
+    {
       "fix": "Memoryfix is no longer needed.\n1. Remove Memoryfix and use Patcher",
       "causes": [
         {
@@ -1181,7 +1243,7 @@
       ]
     },
     {
-      "fix": "SkyblockReinvented is no longer supported by its developer. Additionally, during SRE's own lifetime, it used a lot of code from other Skyblock mods. Consider removing it from your mods folder.",
+      "fix": "SkyblockReinvented is no longer supported by its developer. Consider removing it from your mods folder.",
       "causes": [
         {
           "method": "contains",
