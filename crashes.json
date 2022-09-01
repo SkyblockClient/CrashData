@@ -1168,11 +1168,11 @@
       "causes": [
         {
           "method": "contains",
-          "value": "at me.aycy.blockoverlay.BlockOverlayRender.drawOverlay(BlockOverlayRender.java:65)"
+          "value": "at me.aycy.blockoverlay.BlockOverlayRender.drawOverlay"
         },
         {
           "method": "contains",
-          "value": "at me.aycy.blockoverlay.BlockOverlayRender.onDrawBlockHighlight(BlockOverlayRender.java:33)"
+          "value": "at me.aycy.blockoverlay.BlockOverlayRender.onDrawBlockHighlight"
         }
       ]
     },
@@ -1182,7 +1182,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "at dev.meyi.bn.handlers.ChestTickHandler.updateBazaarOrders(ChestTickHandler.java:76)"
+          "value": "at dev.meyi.bn.handlers.ChestTickHandler.updateBazaarOrders"
         }
       ]
     },
@@ -1198,11 +1198,11 @@
     },
     {
       "fixtype": 2,
-      "fix": "Update to a stable version of EvergreenHUD `-mod evergreenhud`",
+      "fix": "Update to a stable version of EvergreenHUD",
       "causes": [
         {
           "method": "contains",
-          "value": "at dev.isxander.evergreenhud.ui.components.ElementDescriptionComponent$1.invoke(ElementDescriptionComponent.kt:66)"
+          "value": "at dev.isxander.evergreenhud.ui.components.ElementDescriptionComponent$1.invoke"
         },
         {
           "method": "contains",
@@ -1212,7 +1212,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "Remove Skyclient Updater from your blocks folder",
+      "fix": "Remove Skyclient Updater from your mods folder",
       "causes": [
         {
           "method": "contains",
