@@ -1,6 +1,28 @@
 {
   "fixes": [
     {
+      "name": "hytils",
+      "fixtype": 1,
+      "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "cc.woverflow.hytils.handlers.chat.modules.modifiers.DefaultChatRestyler"
+        }
+      ]
+    },
+    {
+      "name": "hytilsreborn",
+      "fixtype": 2,
+      "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "cc.woverflow.hytils.handlers.chat.modules.modifiers.DefaultChatRestyler"
+        }
+      ]
+    },
+    {
       "name": "petxprepo",
       "fixtype": 1,
       "fix": "Step 1: Download the repo at  - https://github.com/Moulberry/NotEnoughUpdates-REPO/archive/refs/heads/master.zip\nStep 2: Extract the repo and copy its content - https://i.imgur.com/xsQkqum.png\nStep 3: Navigate to %pathindicator%%profileroot%/config/notenoughupdates%pathindicator%\nStep 4: Create a repo folder if there are none.\nStep 5 : Paste the content you just previously copied\nStep 6 : The final results should look like this - https://i.imgur.com/jgFwsle.png",
