@@ -1,6 +1,21 @@
 {
   "fixes": [
     {
+      "name": "sbalwjgl",
+      "fixtype": 1,
+      "fix": "Update SkyblockAddons",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Cannot determine focused state of uncreated window"
+        },
+        {
+          "method": "contains",
+          "value": "at org.lwjgl.opengl.Display.isActive"
+        }
+      ]
+    },
+    {
       "name": "hytils",
       "fixtype": 1,
       "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
