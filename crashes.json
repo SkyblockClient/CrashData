@@ -1,6 +1,28 @@
 {
   "fixes": [
     {
+      "name": "hytils-reborn",
+      "fixtype": 1,
+      "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "cc.woverflow.hytils.handlers.chat.modules.modifiers.DefaultChatRestyler.onMessageReceived"
+        }
+      ]
+    },
+    {
+      "name": "hr",
+      "fixtype": 2,
+      "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "cc.woverflow.hytils.handlers.chat.modules.modifiers.DefaultChatRestyler.onMessageReceived"
+        }
+      ]
+    },
+    {
       "name": "hytils",
       "fixtype": 1,
       "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
