@@ -1,6 +1,33 @@
 {
   "fixes": [
     {
+      "name": "neutabs",
+      "fixtype": 1,
+      "fix": "Reset the Controlls to List Players and Open Chat",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.IndexOutOfBoundsException"
+        },
+        {
+          "method": "contains",
+          "value": "at java.nio.DirectByteBuffer.get(DirectByteBuffer.java"
+        },
+        {
+          "method": "contains",
+          "value": "at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.overlays.TextTabOverlay.realTick(TextTabOverlay.java"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.moulberry.notenoughupdates.listener.NEUEventListener.onTick(NEUEventListener.java"
+        }
+      ]
+    },
+    {
       "name": "sbalwjgl",
       "fixtype": 1,
       "fix": "Update SkyblockAddons",
