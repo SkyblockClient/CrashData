@@ -3,7 +3,7 @@
     {
       "name": "neutabs",
       "fixtype": 1,
-      "fix": "Reset the Controlls to List Players and Open Chat",
+      "fix": "Reset the Controls to List Players and Open Chat",
       "causes": [
         {
           "method": "contains",
