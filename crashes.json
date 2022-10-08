@@ -1,6 +1,21 @@
 {
   "fixes": [
     {
+      "name": "reinstallneu",
+      "fixtype": 1,
+      "fix": "NotEnoughUpdates seems to be corrupted. Try removing it from your mods folder and reinstalling it.\n%pathindicator%%profileroot%/mods/%pathindicator%",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "net.minecraftforge.fml.common.LoaderException: java.lang.ClassNotFoundException: io.github.moulberry.notenoughupdates.NotEnoughUpdates"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraftforge.fml.common.LoadController.transition"
+        }
+      ]
+    },
+    {
       "name": "neutabs",
       "fixtype": 1,
       "fix": "Reset the Controls to List Players and Open Chat",
