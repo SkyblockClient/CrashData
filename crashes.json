@@ -2046,6 +2046,20 @@
           "value": "codes.biscuit.skyblockaddons.features.EntityOutlines.EntityOutlineRenderer.onTick(EntityOutlineRenderer.java:380)"
         }
       ]
+    },
+    {
+      "fixtype": "2",
+      "fix": "Issue with BazaarNotifier getting data. Ask in discord.gg/wjpJSVSwvD",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "com.google.gson.stream.MalformedJsonException"
+        },
+        {
+          "method": "contains",
+          "value": "at dev.meyi.bn"
+        }
+      ]
     }
   ],
   "fixtypes": [
