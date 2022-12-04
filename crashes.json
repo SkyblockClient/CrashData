@@ -2048,7 +2048,7 @@
       ]
     },
     {
-      "fixtype": "2",
+      "fixtype": 2,
       "fix": "Issue with BazaarNotifier getting data. Ask in discord.gg/wjpJSVSwvD",
       "causes": [
         {
@@ -2058,6 +2058,20 @@
         {
           "method": "contains",
           "value": "at dev.meyi.bn"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Dungeon Rooms is corrupt. Reinstall it from https://github.com/Quantizr/DungeonRoomsMod/releases/latest",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.util.zip.ZipError: zip END header not found"
+        },
+        {
+          "method": "contains",
+          "value": "at io.github.quantizr.dungeonrooms"
         }
       ]
     }
