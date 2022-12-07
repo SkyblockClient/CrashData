@@ -185,32 +185,6 @@
       ]
     },
     {
-      "fixtype": 3,
-      "fix": "Delete the folder %pathindicator%%profileroot%/essential%pathindicator%",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "java.lang.RuntimeException: java.lang.reflect.InvocationTargetException"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage0.EssentialSetupTweaker.<init>"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage1.EssentialLoaderBase.load"
-        },
-        {
-          "method": "contains",
-          "value": "at gg.essential.loader.stage1.EssentialSetupTweaker.<init>"
-        },
-        {
-          "method": "contains",
-          "value": "Caused by: java.util.zip.ZipError: zip END header not found"
-        }
-      ]
-    },
-    {
       "name": "null",
       "fixtype": 3,
       "fix": "To fix the problem:\n1. Go to <https://account.xbox.com/en-us/settings>\n2. Navigate to the `Xbox One/Windows 10 Online Safety` tab. If you are under 18, you may need a parent or guardian to help by getting them to create a family and add you to it.\n3. From there, they should be able to enable multiplayer for your account.\n4. Relaunch Minecraft and you should be able to join any multiplayer server.",
@@ -2061,6 +2035,16 @@
         }
       ]
     },
+    {
+      "fix": "One of your mods is probably corrupt, and you need to reinstall it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.util.zip.ZipError: zip END header not found"
+        }
+      ]
+    }
+  ],
     {
       "fixtype": 1,
       "fix": "Dungeon Rooms is corrupt. Reinstall it from https://github.com/Quantizr/DungeonRoomsMod/releases/latest",
