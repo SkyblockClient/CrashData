@@ -2043,8 +2043,7 @@
           "value": "java.util.zip.ZipError: zip END header not found"
         }
       ]
-    }
-  ],
+    },
     {
       "fixtype": 1,
       "fix": "Dungeon Rooms is corrupt. Reinstall it from https://github.com/Quantizr/DungeonRoomsMod/releases/latest",
