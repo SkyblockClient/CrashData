@@ -2057,6 +2057,20 @@
           "value": "at io.github.quantizr.dungeonrooms"
         }
       ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This is an issue with Chatting, remove it from your mods folder for now.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.NullPointerException"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.gui.GuiNewChat"
+        }
+      ]
     }
   ],
   "fixtypes": [
