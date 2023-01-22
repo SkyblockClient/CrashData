@@ -2060,7 +2060,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "This is an issue with Chatting. If you have SkyClientUpdater restart your game, otherwise update Chatting to v1.4.1 beta4 or above.",
+      "fix": "This is an issue with Chatting beta. If you have SkyClientUpdater restart your game, otherwise update Chatting to v1.4.2 beta4 or above.",
       "causes": [
         {
           "method": "contains",
