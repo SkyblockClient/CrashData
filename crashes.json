@@ -57,20 +57,8 @@
         }
       ]
     },
-    {
-      "name": "hytils",
-      "fixtype": 1,
-      "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "cc.woverflow.hytils.handlers.chat.modules.modifiers.DefaultChatRestyler"
-        }
-      ]
-    },
-    {
       "name": "hytilsreborn",
-      "fixtype": 2,
+      "fixtype": 1,
       "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
       "causes": [
         {
