@@ -2085,7 +2085,7 @@
       "name": "Recommendations"
     },
     {
-      "name": "Disconnect Reason",
+      "name": "Disconnect Solution",
       "server_crashes": true
     }
   ],
