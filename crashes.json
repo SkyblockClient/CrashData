@@ -57,6 +57,7 @@
         }
       ]
     },
+    {
       "name": "hytilsreborn",
       "fixtype": 1,
       "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
