@@ -1472,7 +1472,7 @@
     },
     {
       "fixtype": 2,
-      "fix": "RAT/infostealer found. You have a mod by made by someone under the pseudonym \"studio.dreamys\", most of which is malware and may steal personal info from your computer like passwords and session tokens. PLEASE REMOVE IT FROM YOUR MODS FOLDER, and go CHANGE YOUR PASSWORDS in order to stop others from logging in. Also, cheaters get banned. (\"studio.dreamys\")",
+      "fix": "RAT/infostealer found. You have a mod made by someone under the pseudonym \"studio.dreamys\", most of which is malware and may steal personal info from your computer like passwords and session tokens. PLEASE REMOVE IT FROM YOUR MODS FOLDER, and go CHANGE YOUR PASSWORDS in order to stop others from logging in. Also, cheaters get banned. (\"studio.dreamys\")",
       "causes": [
         {
           "method": "contains",
