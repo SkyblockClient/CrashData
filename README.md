@@ -1,2 +1,2 @@
 # CrashData
-data for rain's crash helper feature
+data for crash helper feature
