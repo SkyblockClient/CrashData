@@ -1530,7 +1530,7 @@
       ]
     },
     {
-      "fix": "Error with the custom loading GIF. This can sometimes be caused by bad video drivers, so consider updating.",
+      "fix": "Error with displaying the splash screen. First try relaunching Minecraft. If it still doesn't work, try to update your video drivers.",
       "causes": [
         {
           "method": "contains",
