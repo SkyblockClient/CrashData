@@ -2111,6 +2111,16 @@
       ]
     },
     {
+      "fixtype": 3,
+      "fix": "Assuming that this is caused by the NEU-DGv3 incompatibility, choose one of the following solutions:\n1. Upgrade NEU to alpha 20.1\n2. Remove DG\n3. Upgrade DG to v4",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Internal Exception: java.lang.NullPointerException"
+        }
+      ]
+    },
+    {
       "fixtype": 1,
       "fix": "Dungeon Rooms is corrupt. Reinstall it from https://github.com/Quantizr/DungeonRoomsMod/releases/latest",
       "causes": [
