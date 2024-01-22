@@ -1281,6 +1281,15 @@
       ]
     },
     {
+      "fix": "SkyblockFeatures was found. Many of its features overlap with those of larger mods, including Skytils, NEU, SkyHanni, Patcher, SBA, and Skyblock Personalized. Consider removing it from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "mrfast.sbf"
+        }
+      ]
+    },
+    {
       "fixtype": 2,
       "fix": "SkyblockStats was found. Remove the mod and use `/pv` from NotEnoughUpdates instead.",
       "causes": [
