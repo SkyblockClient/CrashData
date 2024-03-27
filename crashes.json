@@ -1207,6 +1207,17 @@
       ]
     },
     {
+      "name": "bnoom",
+      "fixtype": 1,
+      "fix": "Remove BazaarNotifier from your mods folder and reinstall it via \n%pathindicator%%profileroot%/mods/%pathindicator%. If you need help, go to discord.gg/wjpJSVSwvD for support.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at dev.meyi.bn.BazaarNotifier.preInit(BazaarNotifier.java:103)"
+        }
+      ]
+    },
+    {
       "fixtype": 2,
       "fix": "Try deleting the `screenshot-checksum-caches.json` file in `.minecraft/essential`",
       "causes": [
