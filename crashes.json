@@ -1209,7 +1209,7 @@
     {
       "name": "bnoom",
       "fixtype": 1,
-      "fix": "Remove BazaarNotifier from your mods folder and reinstall it via \n%pathindicator%%profileroot%/mods/%pathindicator%. If you need help, go to discord.gg/wjpJSVSwvD for support.",
+      "fix": "**Remove BazaarNotifier from your mods folder and reinstall it via \n%pathindicator%%profileroot%/mods/%pathindicator%. If you need help, go to discord.gg/wjpJSVSwvD for support.**",
       "causes": [
         {
           "method": "contains",
