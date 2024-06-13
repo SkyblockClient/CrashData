@@ -1986,6 +1986,10 @@
         {
           "method": "contains",
           "value": "at gg.skytils.skytilsmod.Skytils.<init>(Skytils.kt:514)"
+        },
+        {
+          "method": "contains",
+          "value": "at gg.skytils.skytilsmod.core.TickKt.<clinit>(tick.kt:34)"
         }
       ]
     },
