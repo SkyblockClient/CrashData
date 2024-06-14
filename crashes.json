@@ -211,16 +211,6 @@
     },
     {
       "fixtype": 0,
-      "fix": "You are on Forge 2318.",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "Powered by Forge 11.15.1.2318"
-        }
-      ]
-    },
-    {
-      "fixtype": 0,
       "fix": "You're using an old version of Forge (1902).\nUpdate Forge: <https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html>",
       "causes": [
         {
