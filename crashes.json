@@ -1031,6 +1031,7 @@
     {
       "fixtype": 2,
       "fix": "Download Skyclient Updater from <https://github.com/nacrt/SkyblockClient-Updater/releases>. Move the `jar` file to your mods folder %pathindicator%%profileroot%/mods/%pathindicator%",
+      "onlySkyClient": true
       "causes": [
         {
           "method": "contains",
