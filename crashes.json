@@ -394,6 +394,16 @@
       ]
     },
     {
+      "fixtype": 1,
+      "fix": "Essential's DI is not initialized! Please contact Essential's support at <https://discord.gg/essential>.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "Caused by: java.lang.RuntimeException: DI not initialised!"
+        }
+      ]
+    },
+    {
       "name": "vanillablockchange",
       "fixtype": 1,
       "fix": "This crash was caused by a vanilla Minecraft bug that's caused by changing a block with special states and cannot be fixed.",
