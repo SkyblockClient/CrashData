@@ -812,6 +812,17 @@
       ]
     },
     {
+      "name": "dgclassloader",
+      "fixtype": 1,
+      "fix": "DungeonsGuide issue. Remove it from your mods folder (%pathindicator%%profileroot%/mods%pathindicator%) and launch again.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at kr.syeyoung.dungeonsguide.launcher.loader.DGClassLoader.getLoadedPackages(DGClassLoader.java:96)"
+        }
+      ]
+    }
+    {
       "name": "dgload",
       "fixtype": 1,
       "fix": "DungeonsGuide couldn't load.\n1. Attempt to get support at <https://discord.gg/dg>.\n2. If you can't get it to work, remove it.",
