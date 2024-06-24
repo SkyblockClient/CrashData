@@ -821,7 +821,7 @@
           "value": "at kr.syeyoung.dungeonsguide.launcher.loader.DGClassLoader.getLoadedPackages(DGClassLoader.java:96)"
         }
       ]
-    }
+    },
     {
       "name": "dgload",
       "fixtype": 1,
