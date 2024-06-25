@@ -1998,7 +1998,13 @@
         {
           "method": "contains",
           "value": "at gg.skytils.skytilsmod.Skytils.<init>(Skytils.kt:514)"
-        },
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Update Skytils to 1.10.0-pre9, through https://github.com/Skytils/SkytilsMod/releases/tag/v1.10.0-pre9. Check with them at their discord at discord.gg/skytils if you are having issues",
+      "causes": [
         {
           "method": "contains",
           "value": "at gg.skytils.skytilsmod.core.TickKt.<clinit>(tick.kt:34)"
