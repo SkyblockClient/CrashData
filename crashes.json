@@ -299,6 +299,16 @@
     },
     {
       "fixtype": 1,
+      "fix": "Update SkyClientCosmetics to 1.1.18 or above. Download https://modrinth.com/mod/scc/versions and put it in your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoClassDefFoundError: com/replaymod/core/SettingsRegistry$SettingKey"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
       "fix": "There was a problem intializing Chatting.\nThis crash seems to be caused by ANY and ALL of the following mods: \nHytilities-Reborn, VanillaHUD, CrashPatch, and Chatting.\nRemove these mods in the meantime.",
       "causes": [
         {
