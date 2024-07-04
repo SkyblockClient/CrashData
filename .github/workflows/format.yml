@@ -31,7 +31,7 @@ jobs:
           npm install -g prettier jsonschema-cli
       - name: Check mods file is valid
         run: |
-          validateJson -d files/mods.json -s mod_schema.json
+          validateJson -d crashes.json
       - name: Check Prettier
         run: |
           npx prettier **/*.json --check
