@@ -2023,6 +2023,16 @@
     },
     {
       "fixtype": 1,
+      "fix": "Update Skytils to 1.10.0-pre9, through https://github.com/Skytils/SkytilsMod/releases/tag/v1.10.0-pre9. Check with them at their discord at discord.gg/skytils if you are having issues",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at gg.skytils.skytilsmod.core.TickKt.<clinit>(tick.kt:31)"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
       "fix": "The icon for Skyclient is corrupted, you can simply delete the itlt mod from your mods folder or wait for a human to help you out.",
       "causes": [
         {
