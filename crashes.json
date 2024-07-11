@@ -1742,6 +1742,17 @@
       ]
     },
     {
+      "name": "sbapetcache",
+      "fixtype": 1,
+      "fix": "SkyblockAddons ran into an error while trying to show you the Pet manager.\n1. Navigate to %pathindicator%%profileroot%/config%pathindicator%\n2. Delete skyblockaddons_petCache.json.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at codes.biscuit.skyblockaddons.config.PetCacheManager.getCurrentPet(PetCacheManager.java:101)"
+        }
+      ]
+    },
+    {
       "fixtype": 1,
       "fix": "Your GPU doesn't support Entity Outlines in SkyblockAddons. Try updating your graphics drivers to see if it is resolved.",
       "causes": [
