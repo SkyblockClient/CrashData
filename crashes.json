@@ -587,7 +587,7 @@
     {
       "name": "oldpatcher",
       "fixtype": 1,
-      "fix": "NotEnoughUpdates is conflicting with an old version of Patcher.\nUpdate Patcher to the latest version.",
+      "fix": "NotEnoughUpdates is conflicting with an old version of Patcher.\nUpdate (Poly)Patcher to the latest version.",
       "causes": [
         {
           "method": "contains",
@@ -612,7 +612,7 @@
     {
       "name": "ctm",
       "fixtype": 1,
-      "fix": "Optifine's connected textures had an error. You can do one or both of the following:\n- Update Patcher to the latest version\n- Set your `Connected Textures` mode to `Fast`. (`Options` > `Video Settings` > `Quality` > `Connected Textures`).",
+      "fix": "Optifine's connected textures had an error. You can do one or both of the following:\n- Update (Poly)Patcher to the latest version\n- Set your `Connected Textures` mode to `Fast`. (`Options` > `Video Settings` > `Quality` > `Connected Textures`).",
       "causes": [
         {
           "method": "contains",
@@ -1123,26 +1123,6 @@
     },
     {
       "fixtype": 2,
-      "fix": "CaseCommands has been replaced by Patcher.\n1. Remove CaseCommands from %pathindicator%%profileroot%/mods%pathindicator%",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "CaseCommands"
-        }
-      ]
-    },
-    {
-      "fixtype": 2,
-      "fix": "NoCloseMyChat has been replaced by Patcher\n1. Remove NoCloseMyChat from %pathindicator%%profileroot%/mods%pathindicator%",
-      "causes": [
-        {
-          "method": "contains",
-          "value": "NoCloseMyChat"
-        }
-      ]
-    },
-    {
-      "fixtype": 2,
       "fix": "Oranges Simple Mods might break things as they are poorly made, bloated, and break OptiFine's features.",
       "causes": [
         {
@@ -1278,7 +1258,7 @@
       ]
     },
     {
-      "fix": "Memoryfix is no longer needed.\n1. Remove Memoryfix and use Patcher",
+      "fix": "Memoryfix is no longer needed.\n1. Remove Memoryfix and use (Poly)Patcher",
       "causes": [
         {
           "method": "contains",
