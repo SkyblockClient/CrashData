@@ -58,6 +58,17 @@
       ]
     },
     {
+      "name": "sbanewgui",
+      "fixtype": 1,
+      "fix": "Update SkyblockAddons",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at codes.biscuit.skyblockaddons.mixins.hooks.EntityRendererHook.onRenderScreenPre(EntityRendererHook.java:17)"
+        }
+      ]
+    },
+    {
       "name": "hytilsreborn",
       "fixtype": 1,
       "fix": "Remove Hytils-Reborn from your mods folder:\n%pathindicator%%profileroot%/mods/%pathindicator%",
