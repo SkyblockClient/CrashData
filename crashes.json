@@ -1,6 +1,16 @@
 {
   "fixes": [
     {
+      "fixtype": 1,
+      "fix": "Remove Partly Sane Skies from your mods folder or disable the custom Auction House GUI.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at me.partlysanestudios.partlysaneskies.features.economy.auctionhousemenu.AuctionHouseGui$Companion.isAuctionHouseFullyLoaded(AuctionHouseGui.kt:259)"
+        }
+      ]
+    },
+    {
       "name": "reinstallneu",
       "fixtype": 1,
       "fix": "NotEnoughUpdates seems to be corrupted. Try removing it from your mods folder and reinstalling it.\n%pathindicator%%profileroot%/mods/%pathindicator%",
