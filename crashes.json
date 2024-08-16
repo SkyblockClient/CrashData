@@ -2,6 +2,24 @@
   "fixes": [
     {
       "fixtype": 1,
+      "fix": "Remove Hypixel Mod API from your mods folder.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NullPointerException: Initializing game"
+        },
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java)"
+        },
+        {
+          "method": "contains",
+          "value": "bingobrewers"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
       "fix": "Remove Partly Sane Skies from your mods folder or disable the custom Auction House GUI.",
       "causes": [
         {
