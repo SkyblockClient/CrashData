@@ -426,7 +426,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Essential's DI is not initialized! Please contact Essential's support at <https://discord.gg/essential>.",
+      "fix": "Essential's DI is not initialized! Try manually updating Essential via https://modrinth.com/mod/essential/versions?l=forge&g=1.8.9. If that doesn't work, contact Essential's support at <https://discord.gg/essential>.",
       "causes": [
         {
           "method": "contains",
@@ -866,7 +866,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Issue with Essential.\nGo to Essential's Discord server for support: <https://discord.gg/essential>",
+      "fix": "Issue with Essential.\nTry manually updating Essential via https://modrinth.com/mod/essential/versions?l=forge&g=1.8.9. If that doesn't work, go to Essential's Discord server for support: <https://discord.gg/essential>",
       "causes": [
         {
           "method": "contains",
