@@ -2,7 +2,21 @@
   "fixes": [
     {
       "fixtype": 1,
-      "fix": "Remove Hypixel Mod API from your mods folder.",
+      "fix": "Remove Hypixel Mod API from your mods folder, if you have it.",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "at net.minecraft.client.renderer.entity.RenderItem.<init>"
+        },
+        {
+          "method": "contains",
+          "value": "bingobrewers"
+        }
+      ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "Remove Hypixel Mod API from your mods folder, if you have it.",
       "causes": [
         {
           "method": "contains",
