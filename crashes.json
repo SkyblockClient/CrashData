@@ -304,11 +304,11 @@
     },
     {
       "fixtype": 0,
-      "fix": "Feather client is unsupported and any issues it causes need to be reported to Feather Staff.",
+      "fix": "Feather Client is unsupported and any issues it causes need to be reported to Feather Staff.",
       "causes": [
         {
           "method": "contains",
-          "value": "featherOpt"
+          "value": "FeatherOpt"
         }
       ]
     },
