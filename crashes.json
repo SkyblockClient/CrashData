@@ -308,7 +308,7 @@
       "causes": [
         {
           "method": "contains",
-          "value": "FeatherOpt"
+          "value": "FeatherTweaker"
         }
       ]
     },
