@@ -2058,7 +2058,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Update Skytils to 1.10.0-pre9, through https://github.com/Skytils/SkytilsMod/releases/tag/v1.10.0-pre9. Check with them at their discord at discord.gg/skytils if you are having issues",
+      "fix": "Update Skytils to the latest version, through https://github.com/Skytils/SkytilsMod/releases/latest. Check with them at their discord at discord.gg/skytils if you are having issues",
       "causes": [
         {
           "method": "contains",
@@ -2068,7 +2068,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Update Skytils to 1.10.0-pre9, through https://github.com/Skytils/SkytilsMod/releases/tag/v1.10.0-pre9. Check with them at their discord at discord.gg/skytils if you are having issues",
+      "fix": "Update Skytils to the latest version, through https://github.com/Skytils/SkytilsMod/releases/latest. Check with them at their discord at discord.gg/skytils if you are having issues",
       "causes": [
         {
           "method": "contains",
@@ -2078,7 +2078,7 @@
     },
     {
       "fixtype": 1,
-      "fix": "Update Skytils to 1.10.0-pre9, through https://github.com/Skytils/SkytilsMod/releases/tag/v1.10.0-pre9. Check with them at their discord at discord.gg/skytils if you are having issues",
+      "fix": "Update Skytils to the latest version, through https://github.com/Skytils/SkytilsMod/releases/latest. Check with them at their discord at discord.gg/skytils if you are having issues",
       "causes": [
         {
           "method": "contains",
