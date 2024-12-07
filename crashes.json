@@ -1187,7 +1187,7 @@
     {
       "name": "skypixel",
       "fixtype": 2,
-      "fix": "Skypixel is old, unmaintained, and has many bugs. Find alternatives from <https://github.com/MicrocontrollersDev/Alternatives/blob/main/docs/1.8.9/Skypixel.md>",
+      "fix": "Skypixel is old, unmaintained, and has many bugs. Find alternatives from <https://alternatives.microcontrollers.dev/1.8.9/skypixel/>",
       "causes": [
         {
           "method": "contains",
