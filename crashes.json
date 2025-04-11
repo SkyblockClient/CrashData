@@ -2280,7 +2280,7 @@
         },
         {
           "method": "contains",
-          "value": "at org.polyfrost.vanillahud.VanillaHUD.isSkyHanniScoreboard(VanillaHUD.java:369)"
+          "value": "at org.polyfrost.vanillahud.VanillaHUD.isSkyHanni"
         }
       ]
     }
