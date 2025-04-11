@@ -2269,6 +2269,20 @@
           "value": "at net.minecraft.client.gui.GuiNewChat"
         }
       ]
+    },
+    {
+      "fixtype": 1,
+      "fix": "This is an issue with VanillaHUD and SkyHanni 2.11.0. We are working on a fix, for now either downgrade SkyHanni to 2.10.0 or remove VanillaHUD",
+      "causes": [
+        {
+          "method": "contains",
+          "value": "java.lang.NoSuchFieldError: gui"
+        },
+        {
+          "method": "contains",
+          "value": "at org.polyfrost.vanillahud.VanillaHUD.isSkyHanni"
+        }
+      ]
     }
   ],
   "fixtypes": [
